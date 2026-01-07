@@ -46,7 +46,7 @@
         "directions": [
           "down"
         ],
-        "exclusion_radius_xz": 3,
+        "exclusion_radius_xz": 2,
         "exclusion_radius_y": 0,
         "probability": 0.2,
         "required_empty_blocks": 1
