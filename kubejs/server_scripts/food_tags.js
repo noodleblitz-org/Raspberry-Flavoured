@@ -382,7 +382,7 @@ ServerEvents.tags('item', event => {
 		.add('spelunkery:white_inkcap_mushroom')
 		.add('create:chocolate_glazed_berries')
 		.add('create:sweet_roll')
-		.add('create_central_kitchen:cherry_pie_slice')
+		.add('raspberry:cherry_pie_slice')
 		.add('create_central_kitchen:pumpkin_pie_slice')
 		.add('create_central_kitchen:truffle_pie_slice')
 		.add('create_confectionery:chocolate_glazed_marshmallow')
@@ -462,10 +462,10 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:squid_sandwich')
 		.add('kubejs:squid_stir_fry')
 		.add('kubejs:sugar_cookie')
-		.add('kubejs:takoyaki')
 		.add('kubejs:tambaqui_curry')
 		.add('kubejs:turkey_stew')
 		.add('kubejs:white_fish_soup')
+		.add('miners_delight:takoyaki')
 		
 	event.get('raspberry_flavoured:all_drinks')
 		.add('minecraft:milk_bucket')
@@ -519,4 +519,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:pickerelweed_juice')
 		.add('kubejs:foul_fernet')
 		.add('kubejs:soulstice_sake')
+
+	event.get('forge:bars/chocolate')
+		.add('neapolitan:chocolate_bar')
 })

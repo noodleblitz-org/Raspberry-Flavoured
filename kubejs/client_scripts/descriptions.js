@@ -68,7 +68,7 @@ const keysToItems = {
     'rf.jei.corn': ['culturaldelights:corn_kernels', 'culturaldelights:corn_cob', 'culturaldelights:corn_cob_crate', 'culturaldelights:wild_corn'],
     'rf.jei.avocados': ['#culturaldelights:avocados', 'culturaldelights:avocado_crate', 'culturaldelights:avocado_pit', 'culturaldelights:avocado_sapling', 'culturaldelights:fruiting_avocado_leaves'],
     'rf.jei.lemons': ['cookscollection:lemon', 'cookscollection:lemon_crate', 'cookscollection:lemon_sapling', 'cookscollection:fruiting_lemon_leaves'],
-    'rf.jei.truffles': ['environmental:truffle', 'environmental:buried_truffle', 'environmental:truffle_crate'],
+    'rf.jei.truffles': ['environmental:truffle', 'environmental:buried_truffle', 'kubejs:truffle_crate'],
     'rf.jei.cattails': ['environmental:cattail', 'environmental:cattail_seeds', 'environmental:cattail_seed_sack'],
 	
     'rf.jei.coal': ['#minecraft:coal_ores', 'minecraft:coal', 'minecraft:coal_block', 'spelunkery:coal_lump'],
@@ -110,7 +110,7 @@ const keysToItems = {
     'rf.jei.paragliders': 'vc_gliders:paraglider_wood',
     'rf.jei.onion_cry': ['#forge:crops/onion', '#onion_onion:onion_proof_helmets'],
     'rf.jei.cloth_scraps': ['kubejs:cloth_scrap', '#raspberry_flavoured:cloth_blocks'],
-    'rf.jei.brush': 'kubejs:copper_brush',
+    'rf.jei.brush': 'minecraft:brush',
     'rf.jei.wax_brush': 'kubejs:copper_brush_wax',
     'rf.jei.sap': ['autumnity:sap_bottle', 'create_central_kitchen:sap_bucket', 'autumnity:sappy_maple_log', 'autumnity:sappy_maple_wood'],
     'rf.jei.latex': ['kubejs:latex_bottle', 'kubejs:latex_bucket', 'kubejs:latex_jungle_log', 'kubejs:latex_jungle_wood', 'kubejs:latex_rosewood_log', 'kubejs:latex_rosewood'],

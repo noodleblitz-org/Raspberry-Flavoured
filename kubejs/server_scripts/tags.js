@@ -389,10 +389,10 @@ ServerEvents.tags('item', event => {
 		.add('everycomp:mm/ecologics/coconut_board_slab')
 		.add('everycomp:mm/atmospheric/rosewood_board_slab')
 		.add('everycomp:mm/windswept/chestnut_board_slab')
-		.add('everycomp:mm/quark/bamboo_board_slab')
+		.add('everycomp:mm/minecraft/bamboo_board_slab')
 		.add('everycomp:mm/autumnity/maple_board_slab')
 		.add('everycomp:mm/atmospheric/yucca_board_slab')
-		.add('everycomp:mm/environmental/cherry_board_slab')
+		.add('everycomp:mm/minecraft/cherry_board_slab')
 		.add('everycomp:mm/upgrade_aquatic/driftwood_board_slab')
 		.add('everycomp:mm/environmental/wisteria_board_slab')
 		.add('everycomp:mm/ecologics/azalea_board_slab')
@@ -470,10 +470,10 @@ ServerEvents.tags('item', event => {
 		.add('everycomp:mm/ecologics/coconut_board_stairs')
 		.add('everycomp:mm/atmospheric/rosewood_board_stairs')
 		.add('everycomp:mm/windswept/chestnut_board_stairs')
-		.add('everycomp:mm/quark/bamboo_board_stairs')
+		.add('everycomp:mm/minecraft/bamboo_board_stairs')
 		.add('everycomp:mm/autumnity/maple_board_stairs')
 		.add('everycomp:mm/atmospheric/yucca_board_stairs')
-		.add('everycomp:mm/environmental/cherry_board_stairs')
+		.add('everycomp:mm/minecraft/cherry_board_stairs')
 		.add('everycomp:mm/upgrade_aquatic/driftwood_board_stairs')
 		.add('everycomp:mm/environmental/wisteria_board_stairs')
 		.add('everycomp:mm/ecologics/azalea_board_stairs')
@@ -1458,6 +1458,7 @@ ServerEvents.tags('item', event => {
 		.add('#raspberry_flavoured:white_fish')
 		.add('#raspberry_flavoured:red_fish')
 		.add('sullysmod:lanternfish')
+		.add('sullysmod:piranha')
 
 	event.get('raspberry_flavoured:raw_fish')
 		.add('#raspberry_flavoured:white_fish')
@@ -2002,7 +2003,7 @@ ServerEvents.tags('item', event => {
 	
 	event.get('forge:stripped_logs')
 		.add('environmental:stripped_willow_log')
-		.add('environmental:stripped_cherry_log')
+		.add('minecraft:stripped_cherry_log')
 		.add('environmental:stripped_wisteria_log')
 		.add('upgrade_aquatic:stripped_river_log')
 		.add('upgrade_aquatic:stripped_driftwood_log')
@@ -2016,7 +2017,7 @@ ServerEvents.tags('item', event => {
 	
 	event.get('forge:stripped_wood')
 		.add('environmental:stripped_willow_wood')
-		.add('environmental:stripped_cherry_wood')
+		.add('minecraft:stripped_cherry_wood')
 		.add('environmental:stripped_wisteria_wood')
 		.add('upgrade_aquatic:stripped_river_wood')
 		.add('upgrade_aquatic:stripped_driftwood')
@@ -2053,6 +2054,12 @@ ServerEvents.tags('item', event => {
 	
 	event.get('minecraft:flowers')
 		.remove('nethersdelight:mimicarnation')
+		.add('environmental:cheerful_plum_leaves')
+		.add('environmental:cheerful_plum_leaf_pile')
+		.add('environmental:plum_leaves')
+		.add('environmental:plum_leaf_pile')
+		.add('environmental:moody_plum_leaves')
+		.add('environmental:moody_plum_leaf_pile')
 	
 	event.get('minecraft:small_flowers')
 		.remove('nethersdelight:mimicarnation')
@@ -2277,7 +2284,7 @@ ServerEvents.tags('item', event => {
 		
 	event.get('forge:heads')
 		.add('supplementaries:enderman_head')
-		.add('piglinproliferation:piglin_head')
+		.add('minecraft:piglin_head')
 		.add('piglinproliferation:piglin_brute_head')
 		.add('piglinproliferation:piglin_alchemist_head')
 		.add('piglinproliferation:zombified_piglin_head')
@@ -2498,7 +2505,7 @@ ServerEvents.tags('block', event => {
 		.add('spelunkery:white_inkcap_mushroom')
 		.add('spelunkery:milly_bubcap')
 		.add('quark:glow_shroom')
-		.add('dolt_compat:glowshroom_colony')
+		.add('dolt_mod_how:glowshroom_colony')
 
 	event.get('raspberry:interactable_metal_doors')
 		.add('copperandtuffbackport:copper_door')
@@ -2906,6 +2913,8 @@ ServerEvents.tags('block', event => {
 		.add('minecraft:target')
 		.add('minecraft:hay_block')
 		.add('minecraft:dead_bush')
+		.add('minecraft:short_dry_grass')
+		.add('minecraft:tall_dry_grass')
 		.add('farmersdelight:rice_bale')
 		.add('farmersdelight:straw_bale')
 		.add('supplementaries:flax_block')
@@ -2913,7 +2922,6 @@ ServerEvents.tags('block', event => {
 		.add('incubation:twig_nest')
 		.add('quark:cut_vine')
 		.add('farmersdelight:canvas_rug')
-	    .add('farmersdelight:sandy_shrub')
 	    .add('farmersrespite:wild_coffee_bush')
 	    .add('farmersrespite:wither_roots_plant')
 	    .add('farmersrespite:wither_roots')
@@ -3494,6 +3502,12 @@ ServerEvents.tags('block', event => {
 		.add('farmersrespite:wild_coffee_bush')
 		.add('brewinandchewin:flaxen_cheese_wheel')
 		.add('brewinandchewin:scarlet_cheese_wheel')
+		.add('environmental:cheerful_plum_leaves')
+		.add('environmental:cheerful_plum_leaf_pile')
+		.add('environmental:plum_leaves')
+		.add('environmental:plum_leaf_pile')
+		.add('environmental:moody_plum_leaves')
+		.add('environmental:moody_plum_leaf_pile')
 		.remove('nethersdelight:mimicarnation')
 		.remove('miners_delight:wild_cave_carrots')
 	
@@ -3754,7 +3768,7 @@ ServerEvents.tags('block', event => {
 		.add('caverns_and_chasms:peeper_wall_head')
 		.add('caverns_and_chasms:mime_head')
 		.add('caverns_and_chasms:mime_wall_head')
-		.add('piglinproliferation:piglin_head')
+		.add('minecraft:piglin_head')
 		.add('piglinproliferation:piglin_wall_head')
 		.add('piglinproliferation:piglin_brute_head')
 		.add('piglinproliferation:piglin_brute_wall_head')
@@ -3840,6 +3854,7 @@ ServerEvents.tags('block', event => {
 		.add('kubejs:lachryte_slab')
 		.add('kubejs:polished_lachryte_slab')
 		.add('kubejs:lachryte_brick_slab')
+		.add('moreconcrete:cyan_concrete_slab')
 		.remove('minecraft:end_stone')
 		.remove('woodworks:sawmill')
 		
@@ -3850,7 +3865,8 @@ ServerEvents.tags('block', event => {
 		.add('minecraft:dead_bush')
 		.add('upgrade_aquatic:beachgrass')
 		.add('upgrade_aquatic:tall_beachgrass')
-		.add('farmersdelight:sandy_shrub')
+		.add('minecraft:short_dry_grass')
+		.add('minecraft:tall_dry_grass')
 		.add('farmersdelight:rice_panicles')
 		.add('environmental:giant_tall_grass')
 		.add('culturaldelights:wild_corn')
@@ -4306,6 +4322,10 @@ ServerEvents.tags('block', event => {
 		.add('sullysmod:polished_small_jade_brick_slab')
 		.add('sullysmod:polished_jade_shingle_slab')
 		.add('sullysmod:polished_jade_tile_slab')
+		
+	event.get('environmental:pinecone_golem_base_blocks')
+		.add('windswept:pinecone_block')
+		.remove('environmental:pinecone')
 })
 
 // Fluid tags
@@ -4518,13 +4538,6 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('atmospheric:petrified_dunes')
 		.add('atmospheric:rocky_dunes')
 		
-	event.get('raspberry_flavoured:dry_grass_biomes')
-		.add('minecraft:beach')
-		.add('minecraft:desert')
-		.add('minecraft:stony_peaks')
-		.add('minecraft:stony_shore')
-		.add('kubejs:tropical_beach')
-		
 	event.get('raspberry_flavoured:dense_tall_grass_biomes')
 		.add('minecraft:river')
 		.add('minecraft:swamp')
@@ -4542,9 +4555,6 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('environmental:blossom_woods')
 		.add('environmental:blossom_valleys')
 		
-	event.get('raspberry_flavoured:hopeful_wildflowers_biomes')
-		.add('minecraft:flower_forest')
-		
 	event.get('raspberry_flavoured:dense_pink_petals_biomes')
 		.add('environmental:blossom_woods')
 		
@@ -4556,7 +4566,6 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('minecraft:old_growth_birch_forest')
 		
 	event.get('raspberry_flavoured:cheery_wildflowers_biomes')
-		.add('minecraft:flower_forest')
 		.add('minecraft:meadow')
 		.add('minecraft:sunflower_plains')
 		.add('minecraft:sparse_jungle')
@@ -4570,7 +4579,6 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('minecraft:old_growth_spruce_taiga')
 		
 	event.get('raspberry_flavoured:moody_wildflowers_biomes')
-		.add('minecraft:flower_forest')
 		.add('minecraft:windswept_hills')
 		.add('minecraft:windswept_forest')
 		.add('minecraft:snowy_taiga')

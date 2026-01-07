@@ -45,6 +45,7 @@ etched-sounds/
 fancymenu_data
 logs
 emf
+emi.json
 data
 !kubejs/data
 .qmenu_opened.marker
@@ -54,6 +55,7 @@ kubejs/exported
 kubejs/probe
 kubejs/jsconfig.json
 kubejs/README.txt
+config/konkrete/locals/
 config/openloader/resources/*
 !config/openloader/resources/99_RaspberryResources
 mods
@@ -61,6 +63,7 @@ pack.toml
 index.toml
 .nojekyll
 .packwizignore
+.lazyyyyy/
 
 # Files from Forge MDK
 forge*changelog.txt
@@ -70,3 +73,10 @@ instance.json
 
 # macOS
 .DS_Store
+/xaero
+packwiz.json
+packwiz-installer.jar
+packwiz-installer-bootstrap.jar
+command_history.txt
+config/fabric/indigo-renderer.properties
+/.lazyyyyy

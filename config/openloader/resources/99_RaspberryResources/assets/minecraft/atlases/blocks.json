@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "tag/",
+      "source": "tag"
+    },
+    {
+      "type": "minecraft:directory",
+      "prefix": "icons/",
+      "source": "icons"
+    }
+  ]
+}

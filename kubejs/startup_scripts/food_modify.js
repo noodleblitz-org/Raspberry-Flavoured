@@ -266,7 +266,7 @@ ItemEvents.modification(event => {
             food.fastToEat()
         }
     })
-	event.modify('upgrade_aquatic:boiled_blue_pickerelweed', item => {
+	event.modify('upgrade_aquatic:boiled_pickerelweed', item => {
         item.foodProperties = food => {
             food.hunger(1).saturation(0.5).fastToEat()
         }
@@ -731,7 +731,7 @@ ItemEvents.modification(event => {
             food.effect('neapolitan:sugar_rush', 1200, 0, 1)
         }
     })
-	event.modify('create_central_kitchen:cherry_pie_slice', item => {
+	event.modify('raspberry:cherry_pie_slice', item => {
         item.foodProperties = food => {
             food.effect('neapolitan:harmony', 600, 0, 1)
         }
@@ -1490,6 +1490,11 @@ ItemEvents.modification(event => {
             food.effect('autumnity:foul_taste', 600, 0, 1)
         }
     })
+	event.modify('miners_delight:takoyaki', item => {
+        item.foodProperties = food => {
+            food.hunger(13).saturation(0.7).effect('kubejs:satiation', 4200, 0, 1)
+        }
+    })
 	
 // Remove speed from pie slices
 	event.modify([
@@ -1498,7 +1503,7 @@ ItemEvents.modification(event => {
 	'farmersdelight:sweet_berry_cheesecake_slice',
 	'farmersdelight:chocolate_pie_slice',
 	'create_central_kitchen:pumpkin_pie_slice',
-	'create_central_kitchen:cherry_pie_slice',
+	'raspberry:cherry_pie_slice',
 	'create_central_kitchen:truffle_pie_slice'
 	], item => {
         item.foodProperties = food => {

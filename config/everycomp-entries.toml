@@ -5,24 +5,24 @@
 	[types.wood_type]
 
 		[types.wood_type.caverns_and_chasms]
-			azalea = true
+			azalea = false
 
 		[types.wood_type.mynethersdelight]
 			powdery = true
 
 		[types.wood_type.ecologics]
-			flowering_azalea = true
+			flowering_azalea = false
 			azalea = true
 			coconut = true
 			walnut = true
 
 		[types.wood_type.quark]
-			azalea = true
-			ancient = true
-			blossom = true
+			azalea = false
+			ancient = false
+			blossom = false
 
 		[types.wood_type.windswept]
-			holly = true
+			holly = false
 			chestnut = true
 			pine = true
 
@@ -54,8 +54,11 @@
 			yucca = true
 			aspen = true
 			laurel = true
-			kousa = true
-			grimwood = true
+			kousa = false
+			grimwood = false
+
+		[types.wood_type.minecraft]
+			pale_oak = true
 
 	[types.cake]
 
@@ -158,6 +161,9 @@
 			yellow_blossom = true
 			red_blossom = true
 
+		[types.leaves_type.minecraft]
+			pale_oak = true
+
 #Disables specific entries
 [entries]
 
@@ -172,12 +178,12 @@
 			board_stairs = true
 			carved_planks = true
 			board_wall = true
-			pillar = true
 			tile_wall = true
 			tiles = true
 			tile_slab = true
 			carved_plank_stairs = true
 			chiseled_planks = true
+			pillar = true
 
 		[entries.wood_type.boatload]
 			large_boat = true
@@ -193,7 +199,7 @@
 		[entries.wood_type.another_furniture]
 			shelf = true
 			bench = true
-			flower_box = true
+			flower_box = false
 			shutter = true
 			table = true
 			drawer = true

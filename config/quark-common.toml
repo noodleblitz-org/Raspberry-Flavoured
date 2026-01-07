@@ -67,7 +67,7 @@
 	[automation.pistons_move_tile_entities]
 		"Enable Chests Moving Together" = true
 		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
-		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
+		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:trapped_spruce_chest", "quark:trapped_birch_chest", "quark:trapped_jungle_chest", "quark:trapped_acacia_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 	[automation.metal_buttons]
@@ -132,7 +132,7 @@
 	"Leaf Carpet" = false
 	"Japanese Palette" = true
 	"Industrial Palette" = true
-	"Hollow Logs" = true
+	"Hollow Logs" = false
 	Hedges = true
 	Grate = true
 	"Gold Bars" = true
@@ -772,7 +772,7 @@
 	"New Stone Types" = false
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
-	"Glimmering Weald" = true
+	"Glimmering Weald" = false
 	"Fairy Rings" = true
 	Corundum = false
 	"Chorus Vegetation" = true
@@ -780,7 +780,7 @@
 	"Big Stone Clusters" = true
 	"Azalea Wood" = false
 	"Ancient Wood" = false
-	"Fallen Logs" = true
+	"Fallen Logs" = false
 
 	[world.spiral_spires]
 		Rarity = 200
@@ -1556,7 +1556,7 @@
 	"Variant Animal Textures" = true
 	"Uses For Curses" = true
 	"Usage Ticker" = true
-	"Soul Candles" = true
+	"Soul Candles" = false
 	"Microcrafting Helper" = true
 	"Long Range Pick Block" = true
 	"Improved Tooltips" = true
