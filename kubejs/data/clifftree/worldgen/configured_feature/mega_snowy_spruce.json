@@ -46,9 +46,9 @@
         "directions": [
           "down"
         ],
-        "exclusion_radius_xz": 1,
+        "exclusion_radius_xz": 2,
         "exclusion_radius_y": 0,
-        "probability": 0.6,
+        "probability": 0.2,
         "required_empty_blocks": 1
       }
     ],
