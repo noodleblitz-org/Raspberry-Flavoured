@@ -650,96 +650,16 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/game/an_ordinary_day",
-        "stream": true,
-        "weight": 2
+        "name": "music/game/caves/dead_mice",
+        "stream": true
       },
 	  {
-        "name": "music/game/calm1",
-        "stream": true,
-        "weight": 2
+        "name": "music/game/caves/norway",
+        "stream": true
       },
       {
-        "name": "music/game/clark_chris",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/calm3",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/hal1",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/hal2",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/hal3",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/hal4",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/infinite_amethyst",
-        "stream": true,
-        "volume": 0.4,
-        "weight": 2
-      },
-      {
-        "name": "music/game/key_door",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/oxygene_equinoxe",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/wending",
-        "stream": true,
-        "volume": 0.4,
-        "weight": 3
-      },
-      {
-        "name": "music/game/piano1",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/piano2",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/piano3",
-        "stream": true,
-        "weight": 2
-      },
-      {
-        "name": "music/game/water/shuniji",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/independent_accident",
-        "stream": true,
-        "volume": 0.6
-      },
-      {
-        "name": "music/game/eld_unknown",
-        "stream": true,
-        "volume": 0.4
+        "name": "music/game/caves/trapdoor",
+        "stream": true
       }
     ]
   },
