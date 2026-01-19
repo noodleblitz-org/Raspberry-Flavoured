@@ -477,7 +477,7 @@
                         "biome_is": [
                           "clifftree:cold_river",
                           "minecraft:frozen_river",
-                          "clifftree:tundra",
+                          "windswept:tundra",
                           "minecraft:taiga",
                           "minecraft:snowy_plains",
                           "minecraft:snowy_taiga",
@@ -801,7 +801,7 @@
                         "minecraft:dark_forest",
                         "minecraft:pale_garden",
                         "clifftree:sparse_forest",
-                        "clifftree:tundra",
+                        "windswept:tundra",
                         "minecraft:mushroom_fields",
                         "minecraft:old_growth_spruce_taiga",
                         "minecraft:old_growth_pine_taiga",
