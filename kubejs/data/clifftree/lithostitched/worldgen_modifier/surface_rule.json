@@ -83,7 +83,7 @@
                         "biome_is": [
                           "clifftree:cold_river",
                           "minecraft:frozen_river",
-                          "clifftree:tundra",
+                          "windswept:tundra",
                           "minecraft:taiga",
                           "minecraft:snowy_plains",
                           "minecraft:snowy_taiga",
@@ -407,7 +407,7 @@
                         "minecraft:dark_forest",
                         "minecraft:pale_garden",
                         "clifftree:sparse_forest",
-                        "clifftree:tundra",
+                        "windswept:tundra",
                         "minecraft:mushroom_fields",
                         "minecraft:old_growth_spruce_taiga",
                         "minecraft:old_growth_pine_taiga",
@@ -568,6 +568,54 @@
                       "then_run": {
                         "result_state": {
                           "Name": "minecraft:coarse_dirt"
+                        },
+                        "type": "minecraft:block"
+                      },
+                      "type": "minecraft:condition"
+                    },
+                    "type": "minecraft:condition"
+                  },
+                  {
+                    "if_true": {
+                      "biome_is": [
+                        "windswept:tundra"
+                      ],
+                      "type": "minecraft:biome"
+                    },
+                    "then_run": {
+                      "if_true": {
+                        "max_threshold": 0.06060606241226196,
+                        "min_threshold": -0.24242424964904785,
+                        "noise": "minecraft:surface",
+                        "type": "minecraft:noise_threshold"
+                      },
+                      "then_run": {
+                        "result_state": {
+                          "Name": "minecraft:snow_block"
+                        },
+                        "type": "minecraft:block"
+                      },
+                      "type": "minecraft:condition"
+                    },
+                    "type": "minecraft:condition"
+                  },
+                  {
+                    "if_true": {
+                      "biome_is": [
+                        "windswept:tundra"
+                      ],
+                      "type": "minecraft:biome"
+                    },
+                    "then_run": {
+                      "if_true": {
+                        "max_threshold": 0.1818181872367859,
+                        "min_threshold": 0.12121212482452393,
+                        "noise": "minecraft:surface",
+                        "type": "minecraft:noise_threshold"
+                      },
+                      "then_run": {
+                        "result_state": {
+                          "Name": "minecraft:snow_block"
                         },
                         "type": "minecraft:block"
                       },
