@@ -3,7 +3,9 @@
 
 # Force LF for all JSON and config files to prevent Windows CRLF conversion
 *.json text eol=lf
+*.toml text eol=lf
 *.json5 text eol=lf
+*.js text eol=lf
 *.txt text eol=lf
 *.css text eol=lf
 *.db text eol=lf
