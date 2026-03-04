@@ -409,16 +409,16 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 		event.addModifier("kubejs:thorns", chainmailThorns)
 	}
 	
-	if (event.itemStack.id == "copperized:copper_helmet" && event.slotType == "head") {
+	if (event.itemStack.id == "minecraft:copper_helmet" && event.slotType == "head") {
 		event.addModifier("kubejs:thunder_synergy", copperSynergy)
 	}
-	if (event.itemStack.id == "copperized:copper_chestplate" && event.slotType == "chest") {
+	if (event.itemStack.id == "minecraft:copper_chestplate" && event.slotType == "chest") {
 		event.addModifier("kubejs:thunder_synergy", copperSynergy)
 	}
-	if (event.itemStack.id == "copperized:copper_leggings" && event.slotType == "legs") {
+	if (event.itemStack.id == "minecraft:copper_leggings" && event.slotType == "legs") {
 		event.addModifier("kubejs:thunder_synergy", copperSynergy)
 	}
-	if (event.itemStack.id == "copperized:copper_boots" && event.slotType == "feet") {
+	if (event.itemStack.id == "minecraft:copper_boots" && event.slotType == "feet") {
 		event.addModifier("kubejs:thunder_synergy", copperSynergy)
 	}
 	

@@ -11,7 +11,7 @@
     }
   ],
   "type": "copperized:enchanted_add_item",
-  "item": "copperized:copper_chestplate",
+  "item": "minecraft:copper_chestplate",
   "enchantment": "minecraft:protection",
   "level": 1,
   "unique": true

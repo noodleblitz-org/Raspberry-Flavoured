@@ -11,7 +11,7 @@
     }
   ],
   "type": "copperized:add_item",
-  "item": "copperized:copper_helmet",
+  "item": "minecraft:copper_helmet",
   "minAmount": 1,
   "maxAmount": 1,
   "unique": true

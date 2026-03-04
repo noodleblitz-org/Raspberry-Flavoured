@@ -169,7 +169,7 @@ EntityEvents.death(event => {
 			itemEntity.spawn()
 		}
 		
-		if (entity.headArmorItem === 'copperized:copper_helmet' || entity.chestArmorItem === 'copperized:copper_chestplate' || entity.legsArmorItem === 'copperized:copper_leggings' || entity.feetArmorItem === 'copperized:copper_boots') {
+		if (entity.headArmorItem === 'minecraft:copper_helmet' || entity.chestArmorItem === 'minecraft:copper_chestplate' || entity.legsArmorItem === 'minecraft:copper_leggings' || entity.feetArmorItem === 'minecraft:copper_boots') {
 			let itemEntity = event.level.createEntity("item")
 			itemEntity.item = ('create:copper_nugget')
 			itemEntity.y = entity.y + 0.25

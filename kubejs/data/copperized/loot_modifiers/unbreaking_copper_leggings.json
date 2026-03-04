@@ -11,7 +11,7 @@
     }
   ],
   "type": "copperized:enchanted_add_item",
-  "item": "copperized:copper_leggings",
+  "item": "minecraft:copper_leggings",
   "enchantment": "minecraft:unbreaking",
   "level": 2,
   "unique": true

@@ -13,7 +13,7 @@ const keysToItems = {
     'rf.jei.necromium_tools': ['caverns_and_chasms:necromium_pickaxe', 'caverns_and_chasms:necromium_shovel', 'caverns_and_chasms:necromium_hoe', 'caverns_and_chasms:necromium_axe', 'caverns_and_chasms:necromium_sword', 'abnormals_delight:necromium_knife'],
     'rf.jei.netherite_tools': ['minecraft:netherite_pickaxe', 'minecraft:netherite_shovel', 'minecraft:netherite_hoe', 'minecraft:netherite_axe', 'minecraft:netherite_sword', 'farmersdelight:netherite_knife'],
     'rf.jei.leather_armor': ['minecraft:leather_helmet', 'minecraft:leather_chestplate', 'minecraft:leather_leggings', 'minecraft:leather_boots'],
-    'rf.jei.copper_armor': ['copperized:copper_helmet', 'copperized:copper_chestplate', 'copperized:copper_leggings', 'copperized:copper_boots'],
+    'rf.jei.copper_armor': ['minecraft:copper_helmet', 'minecraft:copper_chestplate', 'minecraft:copper_leggings', 'minecraft:copper_boots'],
     'rf.jei.chainmail_armor': ['minecraft:chainmail_helmet', 'minecraft:chainmail_chestplate', 'minecraft:chainmail_leggings', 'minecraft:chainmail_boots'],
     'rf.jei.iron_armor': ['minecraft:iron_helmet', 'minecraft:iron_chestplate', 'minecraft:iron_leggings', 'minecraft:iron_boots'],
     'rf.jei.diamond_armor': ['minecraft:diamond_helmet', 'minecraft:diamond_chestplate', 'minecraft:diamond_leggings', 'minecraft:diamond_boots'],

@@ -11,7 +11,7 @@
     }
   ],
   "type": "copperized:add_item",
-  "item": "copperized:copper_chestplate",
+  "item": "minecraft:copper_chestplate",
   "minAmount": 1,
   "maxAmount": 1,
   "unique": true

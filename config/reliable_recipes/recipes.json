@@ -3202,10 +3202,10 @@
             "replacement": "create:copper_sheet",
             "filter": {
                 "id": [
-                    "copperized:copper_boots",
-                    "copperized:copper_chestplate",
-                    "copperized:copper_helmet",
-                    "copperized:copper_leggings"
+                    "minecraft:copper_boots",
+                    "minecraft:copper_chestplate",
+                    "minecraft:copper_helmet",
+                    "minecraft:copper_leggings"
                 ]
             }
         },

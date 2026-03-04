@@ -172,10 +172,10 @@ ItemEvents.modification(event => {
 
 	// Copper
 	event.modify([
-	'copperized:copper_helmet',
-	'copperized:copper_chestplate',
-	'copperized:copper_leggings',
-	'copperized:copper_boots',
+	'minecraft:copper_helmet',
+	'minecraft:copper_chestplate',
+	'minecraft:copper_leggings',
+	'minecraft:copper_boots',
 	'create:copper_diving_helmet',
 	'create:copper_diving_boots',
 	'shieldexp:golden_shield'
