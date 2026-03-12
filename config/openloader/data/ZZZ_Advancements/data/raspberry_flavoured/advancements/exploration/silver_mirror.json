@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/dwarf_geode",
+  "parent": "raspberry_flavoured:exploration/dungeon",
   "criteria": {
     "0": {
       "conditions": {

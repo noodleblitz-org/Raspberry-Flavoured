@@ -102,15 +102,13 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
 	{item: 'kubejs:blank_tablet'}, 
-	{item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}, 
-	{item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}
+	{item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}, {item: 'kubejs:rubber'}
 	], result: {item: 'kubejs:flinging_tablet'}})
 	// Glacial
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
 	{item: 'kubejs:blank_tablet'}, 
-	{item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, 
-	{item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}
+	{item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}
 	], result: {item: 'kubejs:glacial_tablet'}})
 	// Hallowed
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
@@ -157,6 +155,12 @@ ServerEvents.recipes(event => {
 	{item: 'kubejs:blank_tablet'}, 
 	{item: 'spelunkery:magnetite_chunk'}, {item: 'spelunkery:magnetite_chunk'}, {item: 'spelunkery:magnetite_chunk'}
 	], result: {item: 'kubejs:pulling_tablet'}})
+	// Recollection
+	event.custom({type: 'modestmining:forging', cooktime: 200, 
+	ingredients: [
+	{item: 'kubejs:blank_tablet'}, 
+	{item: 'minecraft:ghast_tear'}, {item: 'minecraft:ghast_tear'}
+	], result: {item: 'kubejs:recollection_tablet'}})
 	// Silent
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
@@ -199,10 +203,8 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:cyclic_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_cyclic_tablet',['kubejs:incomplete_cyclic_tablet', 'prismarine_shard']),
-		event.recipes.createDeploying('kubejs:incomplete_cyclic_tablet',['kubejs:incomplete_cyclic_tablet', 'prismarine_shard']),
 		event.recipes.createDeploying('kubejs:incomplete_cyclic_tablet',['kubejs:incomplete_cyclic_tablet', 'prismarine_shard'])
-	]).transitionalItem('kubejs:incomplete_cyclic_tablet').loops(1).id('kubejs:assembly/cyclic_tablet')
+	]).transitionalItem('kubejs:incomplete_cyclic_tablet').loops(3).id('kubejs:assembly/cyclic_tablet')
 	// Enduring
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:enduring_tablet'),
@@ -223,18 +225,14 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:flinging_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_flinging_tablet',['kubejs:incomplete_flinging_tablet', 'kubejs:rubber']),
-		event.recipes.createDeploying('kubejs:incomplete_flinging_tablet',['kubejs:incomplete_flinging_tablet', 'kubejs:rubber']),
 		event.recipes.createDeploying('kubejs:incomplete_flinging_tablet',['kubejs:incomplete_flinging_tablet', 'kubejs:rubber'])
-	]).transitionalItem('kubejs:incomplete_flinging_tablet').loops(2).id('kubejs:assembly/flinging_tablet')
+	]).transitionalItem('kubejs:incomplete_flinging_tablet').loops(4).id('kubejs:assembly/flinging_tablet')
 	// Glacial
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:glacial_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_glacial_tablet',['kubejs:incomplete_glacial_tablet', 'blue_ice']),
-		event.recipes.createDeploying('kubejs:incomplete_glacial_tablet',['kubejs:incomplete_glacial_tablet', 'blue_ice']),
 		event.recipes.createDeploying('kubejs:incomplete_glacial_tablet',['kubejs:incomplete_glacial_tablet', 'blue_ice'])
-	]).transitionalItem('kubejs:incomplete_glacial_tablet').loops(2).id('kubejs:assembly/glacial_tablet')
+	]).transitionalItem('kubejs:incomplete_glacial_tablet').loops(4).id('kubejs:assembly/glacial_tablet')
 	// Hallowed
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:hallowed_tablet'),
@@ -279,34 +277,32 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:piercing_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_piercing_tablet',['kubejs:incomplete_piercing_tablet', 'upgrade_aquatic:thrasher_tooth']),
-		event.recipes.createDeploying('kubejs:incomplete_piercing_tablet',['kubejs:incomplete_piercing_tablet', 'upgrade_aquatic:thrasher_tooth']),
 		event.recipes.createDeploying('kubejs:incomplete_piercing_tablet',['kubejs:incomplete_piercing_tablet', 'upgrade_aquatic:thrasher_tooth'])
-	]).transitionalItem('kubejs:incomplete_piercing_tablet').loops(1).id('kubejs:assembly/piercing_tablet')
+	]).transitionalItem('kubejs:incomplete_piercing_tablet').loops(3).id('kubejs:assembly/piercing_tablet')
 	// Pulling
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:pulling_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_pulling_tablet',['kubejs:incomplete_pulling_tablet', 'spelunkery:magnetite_chunk']),
-		event.recipes.createDeploying('kubejs:incomplete_pulling_tablet',['kubejs:incomplete_pulling_tablet', 'spelunkery:magnetite_chunk']),
 		event.recipes.createDeploying('kubejs:incomplete_pulling_tablet',['kubejs:incomplete_pulling_tablet', 'spelunkery:magnetite_chunk'])
-	]).transitionalItem('kubejs:incomplete_pulling_tablet').loops(1).id('kubejs:assembly/pulling_tablet')
+	]).transitionalItem('kubejs:incomplete_pulling_tablet').loops(3).id('kubejs:assembly/pulling_tablet')
+	// Recollection
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:recollection_tablet'),
+	],'kubejs:blank_tablet',[
+		event.recipes.createDeploying('kubejs:incomplete_recollection_tablet',['kubejs:incomplete_recollection_tablet', 'ghast_tear'])
+	]).transitionalItem('kubejs:incomplete_recollection_tablet').loops(2).id('kubejs:assembly/recollection_tablet')
 	// Silent
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:silent_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_silent_tablet',['kubejs:incomplete_silent_tablet', 'echo_shard']),
-		event.recipes.createDeploying('kubejs:incomplete_silent_tablet',['kubejs:incomplete_silent_tablet', 'echo_shard']),
 		event.recipes.createDeploying('kubejs:incomplete_silent_tablet',['kubejs:incomplete_silent_tablet', 'echo_shard'])
-	]).transitionalItem('kubejs:incomplete_silent_tablet').loops(1).id('kubejs:assembly/silent_tablet')
+	]).transitionalItem('kubejs:incomplete_silent_tablet').loops(3).id('kubejs:assembly/silent_tablet')
 	// Swift
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:swift_tablet'),
 	],'kubejs:blank_tablet',[
-		event.recipes.createDeploying('kubejs:incomplete_swift_tablet',['kubejs:incomplete_swift_tablet', 'create:golden_sheet']),
-		event.recipes.createDeploying('kubejs:incomplete_swift_tablet',['kubejs:incomplete_swift_tablet', 'create:golden_sheet']),
 		event.recipes.createDeploying('kubejs:incomplete_swift_tablet',['kubejs:incomplete_swift_tablet', 'create:golden_sheet'])
-	]).transitionalItem('kubejs:incomplete_swift_tablet').loops(2).id('kubejs:assembly/swift_tablet')
+	]).transitionalItem('kubejs:incomplete_swift_tablet').loops(6).id('kubejs:assembly/swift_tablet')
 	
 // Smith-enchanting
 	function smithEnchanting(templateItem, [enchantment]) {
@@ -365,6 +361,8 @@ ServerEvents.recipes(event => {
 	
 	smithEnchanting('kubejs:pulling_tablet', ['allurement:reeling'])
 	smithEnchanting('kubejs:pulling_tablet', ['ensorcellation:reach'])
+	
+	smithEnchanting('kubejs:recollection_tablet', ['ensorcellation:soulbound'])
 	
 	smithEnchanting('kubejs:silent_tablet', ['farmersdelight:backstabbing'])
 	smithEnchanting('kubejs:silent_tablet', ['minecraft:swift_sneak'])

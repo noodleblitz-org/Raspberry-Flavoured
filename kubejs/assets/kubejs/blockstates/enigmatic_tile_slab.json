@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kubejs:block/enigmatic_tile_slab"
+    },
+    "type=double": {
+      "model": "architects_palette:block/unobtanium_block"
+    },
+    "type=top": {
+      "model": "kubejs:block/enigmatic_tile_slab_top"
+    }
+  }
+}

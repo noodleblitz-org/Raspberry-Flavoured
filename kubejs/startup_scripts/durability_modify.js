@@ -15,7 +15,7 @@ ItemEvents.modification(event => {
 	maxDura('supplementaries:wrench', 500)
 	maxDura('another_furniture:furniture_hammer', 500)
 	maxDura('aquaculture:iron_fishing_rod', 900)
-	maxDura('farmersdelight:skillet', 900)
+	maxDura('farmersdelight:skillet', 600)
 	maxDura('minecraft:crossbow', 900)
 	
 	maxDura('minecraft:trident', 2000)

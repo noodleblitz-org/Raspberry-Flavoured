@@ -24,5 +24,6 @@
   "entity.environmental.pinecone_golem": "Conifer Golem",
   "item.environmental.pinecone_golem_spawn_egg": "Conifer Golem Spawn Egg",
   "subtitles.environmental.entity.pinecone_golem.death": "Conifer Golem dies",
-  "subtitles.environmental.entity.pinecone_golem.hurt": "Conifer Golem hurts"
+  "subtitles.environmental.entity.pinecone_golem.hurt": "Conifer Golem hurts",
+	"subtitles.environmental.entity.koi.flop": "Fish flops"
 }

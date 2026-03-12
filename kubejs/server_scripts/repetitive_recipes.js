@@ -19,6 +19,20 @@ ServerEvents.recipes(event => {
 	stair('smooth_stone','kubejs:smooth_stone_stairs')
 	stair('kubejs:exolite','architects_palette:myonite_stairs')
 	stair('kubejs:cobbled_exolite','architects_palette:myonite_brick_stairs')
+	stair('architects_palette:unobtanium_block','kubejs:enigmatic_tile_stairs')
+	
+	stair('sandstone','sandstone_stairs')
+	stair('quark:sandstone_bricks','quark:sandstone_bricks_stairs')
+	stair('kubejs:polished_sandstone','kubejs:polished_sandstone_stairs')
+	stair('kubejs:sandstone_tiles','kubejs:sandstone_tile_stairs')
+	stair('red_sandstone','red_sandstone_stairs')
+	stair('quark:red_sandstone_bricks','quark:red_sandstone_bricks_stairs')
+	stair('kubejs:polished_red_sandstone','kubejs:polished_red_sandstone_stairs')
+	stair('kubejs:red_sandstone_tiles','kubejs:red_sandstone_tile_stairs')
+	stair('quark:soul_sandstone','quark:soul_sandstone_stairs')
+	stair('quark:soul_sandstone_bricks','quark:soul_sandstone_bricks_stairs')
+	stair('kubejs:polished_soul_sandstone','kubejs:polished_soul_sandstone_stairs')
+	stair('kubejs:soul_sandstone_tiles','kubejs:soul_sandstone_tile_stairs')
 	
 	// slabs
 	function slab(inputItem, resultItem) {
@@ -38,6 +52,23 @@ ServerEvents.recipes(event => {
 	slab('oreganized:polished_glance','oreganized:polished_glance_slab')
 	slab('kubejs:exolite','architects_palette:myonite_slab')
 	slab('kubejs:cobbled_exolite','architects_palette:myonite_brick_slab')
+	slab('architects_palette:unobtanium_block','kubejs:enigmatic_tile_slab')
+	
+	slab('sandstone','sandstone_slab')
+	slab('cut_sandstone','cut_sandstone_slab')
+	slab('quark:sandstone_bricks','quark:sandstone_bricks_slab')
+	slab('kubejs:polished_sandstone','kubejs:polished_sandstone_slab')
+	slab('kubejs:sandstone_tiles','kubejs:sandstone_tile_slab')
+	slab('red_sandstone','red_sandstone_slab')
+	slab('cut_red_sandstone','cut_red_sandstone_slab')
+	slab('quark:red_sandstone_bricks','quark:red_sandstone_bricks_slab')
+	slab('kubejs:polished_red_sandstone','kubejs:polished_red_sandstone_slab')
+	slab('kubejs:red_sandstone_tiles','kubejs:red_sandstone_tile_slab')
+	slab('quark:soul_sandstone','quark:soul_sandstone_slab')
+	slab('quark:cut_soul_sandstone','quark:cut_soul_sandstone_slab')
+	slab('quark:soul_sandstone_bricks','quark:soul_sandstone_bricks_slab')
+	slab('kubejs:polished_soul_sandstone','kubejs:polished_soul_sandstone_slab')
+	slab('kubejs:soul_sandstone_tiles','kubejs:soul_sandstone_tile_slab')
 	
 	// walls
 	function wall(inputItem, resultItem) {
@@ -55,6 +86,20 @@ ServerEvents.recipes(event => {
 	wall('smooth_stone','kubejs:smooth_stone_wall')
 	wall('kubejs:exolite','architects_palette:myonite_wall')
 	wall('kubejs:cobbled_exolite','architects_palette:myonite_brick_wall')
+	wall('architects_palette:unobtanium_block','kubejs:enigmatic_tile_wall')
+	
+	wall('sandstone','sandstone_wall')
+	wall('quark:sandstone_bricks','quark:sandstone_bricks_wall')
+	wall('kubejs:polished_sandstone','kubejs:polished_sandstone_wall')
+	wall('kubejs:sandstone_tiles','kubejs:sandstone_tile_wall')
+	wall('red_sandstone','red_sandstone_wall')
+	wall('quark:red_sandstone_bricks','quark:red_sandstone_bricks_wall')
+	wall('kubejs:polished_red_sandstone','kubejs:polished_red_sandstone_wall')
+	wall('kubejs:red_sandstone_tiles','kubejs:red_sandstone_tile_wall')
+	wall('quark:soul_sandstone','quark:soul_sandstone_wall')
+	wall('quark:soul_sandstone_bricks','quark:soul_sandstone_bricks_wall')
+	wall('kubejs:polished_soul_sandstone','kubejs:polished_soul_sandstone_wall')
+	wall('kubejs:soul_sandstone_tiles','kubejs:soul_sandstone_tile_wall')
 	
 	// pillars
 	function pillar(inputItem, resultItem) {
@@ -72,6 +117,10 @@ ServerEvents.recipes(event => {
 	pillar('oreganized:polished_glance','kubejs:glance_pillar')
 	pillar('smooth_basalt','basalt')
 	pillar('paletteblocks:polished_basalt','polished_basalt')
+	
+	pillar('sandstone','kubejs:sandstone_pillar')
+	pillar('red_sandstone','kubejs:red_sandstone_pillar')
+	pillar('quark:soul_sandstone','kubejs:soul_sandstone_pillar')
 	
 	// bookshelves
 	function bookshelf(inputItem, resultItem) {

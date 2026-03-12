@@ -7,21 +7,6 @@ ItemEvents.foodEaten('minecraft:glistering_melon_slice', event =>{
 ItemEvents.foodEaten('kubejs:golden_strawberries', event =>{
 	event.player.heal(4)
 })
-ItemEvents.foodEaten('minecraft:golden_carrot', event =>{
-	event.player.removeEffect('minecraft:blindness')
-})
-ItemEvents.foodEaten('buzzier_bees:honey_bread', event =>{
-	event.player.removeEffect('minecraft:slowness')
-})
-ItemEvents.foodEaten('buzzier_bees:honey_bread', event =>{
-	event.player.removeEffect('minecraft:weakness')
-})
-ItemEvents.foodEaten('buzzier_bees:honey_apple', event =>{
-	event.player.removeEffect('minecraft:hunger')
-})
-ItemEvents.foodEaten('buzzier_bees:glazed_porkchop', event =>{
-	event.player.removeEffect('minecraft:nausea')
-})
 ItemEvents.foodEaten('kubejs:sporedough', event =>{
 	event.entity.block.createExplosion().strength(0.775).damagesTerrain(false).explode()
 })
@@ -108,7 +93,8 @@ ItemEvents.foodEaten([
 	'kubejs:snow_top_green_tea',
 	'kubejs:snow_top_yellow_tea',
 	'kubejs:snow_top_black_tea',
-	'kubejs:snow_top_coffee'
+	'kubejs:snow_top_coffee',
+	'kubejs:lemon_fudge'
 	], event =>{
 	event.player.setRemainingFireTicks(0)
 })

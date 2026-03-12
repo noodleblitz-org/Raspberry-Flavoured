@@ -24,13 +24,13 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:leaping"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'kubejs:rubber', '2x slime_ball'
+		'kubejs:rubber', 'slime_ball'
 	]).heated()
 	// Fire resistance
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:fire_resistance"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'magma_cream', '2x blaze_powder', 'mynethersdelight:bullet_pepper'
+		'magma_cream', '2x blaze_powder', '6x create:powdered_obsidian'
 	]).heated()
 	// Speed
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 

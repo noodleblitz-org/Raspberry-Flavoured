@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:farming/oven",
+  "parent": "raspberry_flavoured:farming/keg",
   "criteria": {
     "Place down Roast Chicken": {
       "conditions": {

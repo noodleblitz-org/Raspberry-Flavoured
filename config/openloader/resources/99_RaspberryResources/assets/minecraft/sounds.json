@@ -470,6 +470,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nether/resurrections",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
         "name": "music/game/nether/soulsand_valley/so_below",
         "stream": true,
         "volume": 0.6,
@@ -480,12 +485,6 @@
   "music.nether.crimson_forest": {
     "replace": true,
     "sounds": [
-      {
-        "name": "music/game/nether/crimson_forest/chrysopoeia",
-        "stream": true,
-        "volume": 0.6,
-        "weight": 3
-      },
       {
         "name": "music/game/nether/nether1",
         "stream": true
@@ -513,6 +512,22 @@
       {
         "name": "music/game/nether/ki",
         "stream": true
+      },
+      {
+        "name": "music/game/nether/ams",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/nether/resurrections",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true,
+        "volume": 0.6,
+        "weight": 3
       }
     ]
   },
@@ -546,6 +561,16 @@
       {
         "name": "music/game/nether/ki",
         "stream": true
+      },
+      {
+        "name": "music/game/nether/ams",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/nether/resurrections",
+        "stream": true,
+        "volume": 0.5
       },
       {
         "name": "music/game/nether/nether_wastes/rubedo",
@@ -587,6 +612,16 @@
         "stream": true
       },
       {
+        "name": "music/game/nether/ams",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/nether/resurrections",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
         "name": "music/game/nether/soulsand_valley/so_below",
         "stream": true,
         "volume": 0.6,
@@ -625,15 +660,19 @@
         "stream": true
       },
       {
-        "name": "music/game/nether/skewed_blues",
-        "stream": true,
-        "weight": 4
-      },
-      {
         "name": "music/game/nether/ams",
         "stream": true,
-        "volume": 0.8,
-        "weight": 2
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/nether/resurrections",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/nether/skewed_blues",
+        "stream": true,
+        "weight": 3
       }
 	]
   },
@@ -658,8 +697,94 @@
         "stream": true
       },
       {
-        "name": "music/game/caves/trapdoor",
+        "name": "music/game/clark_chris",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/key_door",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/oxygene_equinoxe",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/wending",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative1",
         "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/water/shuniji",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/independent_accident",
+        "stream": true,
+        "volume": 0.6
+      },
+      {
+        "name": "music/game/eld_unknown",
+        "stream": true,
+        "volume": 0.4
       }
     ]
   },
@@ -745,6 +870,10 @@
 		"weight": 3
       },
       {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
         "name": "music/game/dalarna",
         "stream": true,
 		"weight": 2
@@ -821,6 +950,10 @@
       },
       {
         "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
         "stream": true
       },
       {
@@ -913,6 +1046,10 @@
         "stream": true,
         "volume": 0.4,
         "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
       },
       {
         "name": "music/game/wending",
@@ -1039,6 +1176,14 @@
         "name": "music/game/swamp/labyrinthine",
         "stream": true
       },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      },
 	  {
         "name": "music/game/a_familiar_room",
         "stream": true,
@@ -1146,6 +1291,10 @@
         "weight": 2
       },
       {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
         "name": "music/game/swamp/aerie",
         "stream": true,
         "weight": 2
@@ -1237,6 +1386,14 @@
         "name": "music/game/oxygene_equinoxe",
         "stream": true,
         "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
       },
       {
         "name": "music/game/piano1",
@@ -1355,6 +1512,18 @@
         "weight": 3
       },
       {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      },
+      {
         "name": "music/game/swamp/aerie",
         "stream": true,
         "weight": 2
@@ -1421,6 +1590,14 @@
         "stream": true,
         "volume": 0.4,
         "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
       },
       {
         "name": "music/game/flake",
@@ -1497,6 +1674,10 @@
         "stream": true,
         "volume": 0.4,
         "weight": 3
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
       },
       {
         "name": "music/game/wending",
@@ -1600,6 +1781,10 @@
         "name": "music/game/piano3",
         "stream": true,
         "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
       },
       {
         "name": "music/game/swamp/aerie",
@@ -1724,5 +1909,28 @@
       }
     ],
     "subtitle": "subtitles.entity.endermite.hurt"
+  },
+  "entity.pig.ambient": {
+	"replace": true,
+    "sounds": [
+      "mob/pig/idle1",
+      "mob/pig/idle2",
+      "mob/pig/idle3",
+      "mob/pig/idle4",
+      "mob/pig/idle5",
+      "mob/pig/idle6",
+      "mob/pig/idle7",
+      "mob/pig/idle8"
+    ],
+    "subtitle": "subtitles.entity.pig.ambient"
+  },
+  "entity.pig.hurt": {
+	"replace": true,
+    "sounds": [
+      "mob/pig/hurt1",
+      "mob/pig/hurt2",
+      "mob/pig/hurt3"
+    ],
+    "subtitle": "subtitles.entity.pig.hurt"
   }
 }

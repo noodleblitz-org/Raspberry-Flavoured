@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "architects_palette:block/charcoal_block",
+    "side": "architects_palette:block/charcoal_block"
+  }
+}

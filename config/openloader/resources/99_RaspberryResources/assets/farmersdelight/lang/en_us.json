@@ -11,6 +11,7 @@
   "farmersdelight.jei.info.wild_rice": "Rice can be commonly found as a wild plant in wet biomes such as Swamps and Jungles. After they're grown, Rice plants will yield Rice Panicles when harvested normally, which you'll have to cut up - but if harvested with a Knife, they'll yield Rice directly.",
   "entity.farmersdelight.rotten_tomato": "Rotten Tomato",
   
+  "block.farmersdelight.stove": "Clay Stove",
   "block.farmersdelight.sandy_shrub": "Dry Grass",
   "block.farmersdelight.brown_mushroom_colony": "Shiitake Colony",
   "block.farmersdelight.red_mushroom_colony": "Toadstool Colony",
@@ -32,6 +33,8 @@
   "item.farmersdelight.fish_stew": "Red Fish Stew",
   "item.farmersdelight.pasta_with_mutton_chop": "Pasta with Mint Chops",
   "item.farmersdelight.sweet_berry_cookie": "Jam Cookie",
+  "item.farmersdelight.beef_stew": "Meat Stew",
+  "item.farmersdelight.mixed_salad": "Vegetable Salad",
   
   "farmersdelight.advancement.harvest_ropelogged_tomato.desc": "Hang some rope above or place a stick into a tomato crop to make it grow taller",
   "farmersdelight.advancement.place_campfire.desc": "Make some campfire kindling and ignite it with a fire striker"

@@ -191,37 +191,6 @@ ItemEvents.entityInteracted(event => {
     }
 })
 
-// feeding magma to frogs
-ItemEvents.entityInteracted(event => {
-    if (event.item.id === "mynethersdelight:hot_cream_cone" && event.target.type === "minecraft:frog") {
-        event.player.swing(event.hand, true)
-        event.server.schedule(0.0001, callback => {
-            event.player.stopUsingItem()
-        })
-        event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'entity.frog.tongue', 'players', 1, 1)
-        event.level.spawnParticles('minecraft:heart', true, event.target.x, event.target.y, event.target.z, 0.2, 0, 0.2, 3, 0.05)
-        event.level.spawnParticles('minecraft:item mynethersdelight:hot_cream_cone', true, event.target.x, event.target.y, event.target.z, 0.25, 0.25, 0.25, 15, 0.05)
-        if (!event.player.isCreative()) {
-            event.item.count --
-        }
-		let itemEntity = event.level.createEntity("item")
-        if (event.target.nbt.variant === "minecraft:temperate") {
-			itemEntity.item = ('minecraft:ochre_froglight')
-        }
-        if (event.target.nbt.variant === "minecraft:warm") {
-			itemEntity.item = ('minecraft:pearlescent_froglight')
-        }
-        if (event.target.nbt.variant === "minecraft:cold") {
-			itemEntity.item = ('minecraft:verdant_froglight')
-        }
-		itemEntity.y = event.target.y + 0.25
-		itemEntity.x = event.target.x
-		itemEntity.z = event.target.z
-		itemEntity.motionY = 0.25
-		itemEntity.spawn()
-    }
-})
-
 // feeding glares
 ItemEvents.entityInteracted(event => {
     if (event.item.hasTag('caverns_and_chasms:glare_food') && event.target.type === "caverns_and_chasms:glare") {
@@ -426,7 +395,13 @@ BlockEvents.rightClicked(event => {
         'twigs:polished_bloodstone_bricks': 'twigs:cracked_polished_bloodstone_bricks',
         'twigs:silt_bricks': 'twigs:cracked_silt_bricks',
         'paletteblocks:cobblestone_bricks': 'paletteblocks:cracked_cobblestone_bricks',
-        'modestmining:adobe_bricks': 'modestmining:cracked_adobe_bricks'
+        'modestmining:adobe_bricks': 'modestmining:cracked_adobe_bricks',
+        'quark:sandstone_bricks': 'kubejs:cracked_sandstone_bricks',
+        'minecraft:cut_sandstone': 'kubejs:cracked_layered_sandstone',
+        'quark:red_sandstone_bricks': 'kubejs:cracked_red_sandstone_bricks',
+        'minecraft:cut_red_sandstone': 'kubejs:cracked_layered_red_sandstone',
+        'quark:soul_sandstone_bricks': 'kubejs:cracked_soul_sandstone_bricks',
+        'quark:cut_soul_sandstone': 'kubejs:cracked_layered_soul_sandstone'
     }
     Object.keys(global.crackingMap).forEach((value) => {
         if (event.item.hasTag('another_furniture:furniture_hammers')) {
@@ -699,7 +674,7 @@ ItemEvents.rightClicked('minecraft:splash_potion', event => {
     event.player.addItemCooldown('minecraft:splash_potion', 200)
 })
 ItemEvents.rightClicked('minecraft:lingering_potion', event => {
-    event.player.addItemCooldown('minecraft:lingering_potion', 200)
+    event.player.addItemCooldown('minecraft:lingering_potion', 100)
 })
 ItemEvents.rightClicked('minecraft:snowball', event => {
     event.player.addItemCooldown('minecraft:snowball', 5)

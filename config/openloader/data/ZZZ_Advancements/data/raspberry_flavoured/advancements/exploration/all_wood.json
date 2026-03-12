@@ -230,6 +230,16 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Charred Log": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "raspberry_flavoured:charred_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -321,6 +331,9 @@
     ],
 	[
       "Obtain Block of Powdery Cane"
+    ],
+	[
+      "Obtain Charred Log"
     ]
   ]
 }

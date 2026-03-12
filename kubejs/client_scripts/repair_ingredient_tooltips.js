@@ -44,6 +44,7 @@ ItemEvents.tooltip(event => {
     'create:extendo_grip': 'item.create.brass_ingot, item.create.brass_sheet',
     'supplementaries:wrench': 'item.minecraft.copper_ingot, item.create.copper_sheet',
     'quark:echorang': 'item.minecraft.echo_shard',
+    'farmersdelight:skillet': 'item.minecraft.copper_ingot, item.create.copper_sheet, item.minecraft.iron_ingot, item.create.iron_sheet',
 	
     'savage_and_ravage:wand_of_freezing': 'item.quark.soul_bead',
     'savage_and_ravage:conch_of_conjuring': 'item.quark.soul_bead',
@@ -118,7 +119,6 @@ ItemEvents.tooltip(event => {
     'minecraft:iron_axe': 'item.minecraft.iron_ingot, item.create.iron_sheet',
     'minecraft:iron_hoe': 'item.minecraft.iron_ingot, item.create.iron_sheet',
     'farmersdelight:iron_knife': 'item.minecraft.iron_ingot, item.create.iron_sheet',
-    'farmersdelight:skillet': 'item.minecraft.iron_ingot, item.create.iron_sheet',
     'minecraft:shield': 'item.minecraft.iron_ingot, item.create.iron_sheet',
 	
     'minecraft:iron_helmet': 'item.minecraft.iron_ingot, item.create.iron_sheet',

@@ -127,6 +127,106 @@
             }
         ]
     },
+  "music.overworld.arid": {
+	"sounds": [
+	  {
+		"name": "music/game/crescent_dunes",
+		"stream": true,
+		"volume": 0.4,
+		"weight": 4
+	  },
+	  {
+		"name": "music/game/echo_in_the_wind",
+		"stream": true,
+		"volume": 0.4,
+		"weight": 4
+	  },
+	  {
+		"name": "music/game/ares",
+		"stream": true,
+		"volume": 0.6,
+		"weight": 4
+	  },
+	  {
+		"name": "music/game/stand_tall",
+		"stream": true,
+		"volume": 0.4,
+		"weight": 3
+	  },
+	  {
+		"name": "music/game/oxygene_equinoxe",
+		"stream": true,
+		"weight": 3
+	  },
+	  {
+		"name": "music/game/key_door",
+		"stream": true,
+		"weight": 3
+	  },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+	  {
+		"name": "music/game/hal1",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/hal2",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/hal3",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/hal4",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/piano1",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/piano2",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/piano3",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/wending",
+		"stream": true,
+		"volume": 0.4,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/buildup_errors",
+		"stream": true,
+		"volume": 0.6,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/stilbruch",
+		"stream": true,
+		"weight": 2
+	  },
+	  {
+		"name": "music/game/eld_unknown",
+		"stream": true,
+		"volume": 0.4,
+		"weight": 2
+	  }
+	]
+  },
 	"advancement.regular": {
         "sounds": [
             "kubejs:advancement_sounds/advancement"

@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:farming/rich_soil",
+  "parent": "raspberry_flavoured:farming/all_cakes",
   "criteria": {
     "Obtain Wooden Hoe": {
       "conditions": {
@@ -132,7 +132,7 @@
     },
     "icon": {
       "item": "caverns_and_chasms:necromium_hoe",
-      "nbt": "{Damage:0}"
+      "nbt": "{Damage:0,\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
     },
     "frame": "challenge",
     "hidden": false,

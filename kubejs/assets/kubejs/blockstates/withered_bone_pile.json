@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kubejs:block/withered_bone_pile_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kubejs:block/withered_bone_pile"
+    },
+    "axis=z": {
+      "model": "kubejs:block/withered_bone_pile_horizontal",
+      "x": 90
+    }
+  }
+}

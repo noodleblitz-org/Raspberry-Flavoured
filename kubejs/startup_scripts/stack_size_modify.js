@@ -218,7 +218,8 @@ ItemEvents.modification(event => {
 	'sullysmod:cave_chum_bucket',
 	'mynethersdelight:hot_wings_bucket',
 	'mynethersdelight:hot_cream',
-	'raspberry:cat_food'
+	'raspberry:cat_food',
+	'raspberry:atlas'
 	], item => {item.maxStackSize = 16})
 	
 // Stack to 64
@@ -416,6 +417,7 @@ ItemEvents.modification(event => {
 	'neapolitan:chimpanzee_banner_pattern',
 	'autumnity:maple_leaf_banner_pattern',
 	'autumnity:swirl_banner_pattern',
-	'buzzier_bees:honeycomb_banner_pattern'
+	'buzzier_bees:honeycomb_banner_pattern',
+	'heartstone:heartstone'
 	], item => {item.maxStackSize = 64})
 })

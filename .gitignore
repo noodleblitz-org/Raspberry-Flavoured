@@ -45,6 +45,9 @@ etched-sounds/
 fancymenu_data
 logs
 emf
+data
+.qmenu_opened.marker
+xaero
 emi.json
 data
 !kubejs/data

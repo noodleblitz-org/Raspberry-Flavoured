@@ -69,3 +69,6 @@ net.minecraft.client.gui.screens.ReceivingLevelScreen {
 net.minecraft.client.gui.screens.ConnectScreen {
 }
 
+xaero.map.gui.GuiWorldMapSettings {
+}
+

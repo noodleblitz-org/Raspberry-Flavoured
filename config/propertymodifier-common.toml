@@ -62,7 +62,23 @@
 		"architects_palette:dripstone_lamp" = 15
 		"architects_palette:calcite_lamp" = 15
 		"architects_palette:tuff_lamp" = 15
-		"twigs:petrified_lichen" = 5
+		"kubejs:lachryte" = 12
+		"kubejs:lachryte_slab" = 12
+		"kubejs:lachryte_stairs" = 12
+		"kubejs:lachryte_wall" = 12
+		"kubejs:polished_lachryte" = 12
+		"kubejs:polished_lachryte_slab" = 12
+		"kubejs:polished_lachryte_stairs" = 12
+		"kubejs:polished_lachryte_wall" = 12
+		"kubejs:lachryte_bricks" = 12
+		"kubejs:lachryte_brick_slab" = 12
+		"kubejs:lachryte_brick_stairs" = 12
+		"kubejs:lachryte_brick_wall" = 12
+		"kubejs:chiseled_lachryte" = 12
+		"architects_palette:unobtanium_block" = 10
+		"kubejs:enigmatic_tile_slab" = 10
+		"kubejs:enigmatic_tile_stairs" = 10
+		"kubejs:enigmatic_tile_wall" = 10
 
 #Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood") or a block regex (e.g. "minecraft:.*_block").
 [blocks]
@@ -96,6 +112,11 @@
 	#"minecraft:ender_pearl" = 64
 	max_stack_size = {}
 
+	#Set the item group (creative tab) of an item. Use "missingno" to remove the item from any item groups. Example (without the leading #):
+	#"minecraft:command_block" = "decorations"
+	[items.group]
+		test = ""
+
 	#Set this value to true to make an item fire resistant (like netherite is), or set it to false to make it burn in fire and lava. Example (without the leading #):
 	#"minecraft:netherite_ingot" = false
 	[items.fire_resistant]
@@ -115,6 +136,54 @@
 		"caverns_and_chasms:necromium_nugget" = false
 		"minecraft:ender_eye" = true
 		"kubejs:spirited_exopearl" = true
+		"minecraft:obsidian" = true
+		"minecraft:crying_obsidian" = true
+		"frame_changer:obsidian_bricks" = true
+		"frame_changer:obsidian_brick_slab" = true
+		"frame_changer:obsidian_brick_stairs" = true
+		"frame_changer:obsidian_brick_wall" = true
+		"frame_changer:crying_obsidian_bricks" = true
+		"frame_changer:crying_obsidian_brick_slab" = true
+		"frame_changer:crying_obsidian_brick_stairs" = true
+		"frame_changer:crying_obsidian_brick_wall" = true
+		"frame_changer:polished_obsidian" = true
+		"frame_changer:polished_obsidian_slab" = true
+		"frame_changer:polished_obsidian_stairs" = true
+		"frame_changer:polished_obsidian_wall" = true
+		"frame_changer:crying_polished_obsidian" = true
+		"frame_changer:crying_polished_obsidian_slab" = true
+		"frame_changer:crying_polished_obsidian_stairs" = true
+		"frame_changer:crying_polished_obsidian_wall" = true
+		"frame_changer:obsidian_pillar" = true
+		"frame_changer:crying_obsidian_pillar" = true
+		"frame_changer:chiseled_obsidian" = true
+		"frame_changer:crying_chiseled_obsidian" = true
+		"create:powdered_obsidian" = true
+		"quark:obsidian_pressure_plate" = true
+		"minecraft:ender_chest" = true
+		"quark:ender_watcher" = true
+		"architects_palette:abyssaline" = true
+		"architects_palette:abyssaline_bricks" = true
+		"architects_palette:abyssaline_brick_slab" = true
+		"architects_palette:abyssaline_tiles" = true
+		"architects_palette:abyssaline_tile_slab" = true
+		"architects_palette:chiseled_abyssaline_bricks" = true
+		"architects_palette:abyssaline_pillar" = true
+		"architects_palette:abyssaline_lamp" = true
+		"architects_palette:abyssaline_plating" = true
+		"architects_palette:hadaline" = true
+		"architects_palette:hadaline_bricks" = true
+		"architects_palette:hadaline_brick_slab" = true
+		"architects_palette:hadaline_tiles" = true
+		"architects_palette:hadaline_tile_slab" = true
+		"architects_palette:chiseled_hadaline_bricks" = true
+		"architects_palette:hadaline_pillar" = true
+		"architects_palette:hadaline_lamp" = true
+		"architects_palette:hadaline_plating" = true
+		"architects_palette:unobtanium_block" = true
+		"kubejs:enigmatic_tile_slab" = true
+		"kubejs:enigmatic_tile_stairs" = true
+		"kubejs:enigmatic_tile_wall" = true
 
 	#Set the rarity (item color) of an item. Must be a valid rarity name. Example (without the leading #):
 	#"minecraft:beacon" = "common"
@@ -239,7 +308,7 @@
 		"shieldexp:golden_shield" = "#raspberry_flavoured:copper_repair_materials"
 		"shieldexp:iron_shield" = "#raspberry_flavoured:sanguine_repair_materials"
 		"shieldexp:griefer_shield" = "#raspberry_flavoured:griefer_repair_materials"
-		"farmersdelight:skillet" = "#raspberry_flavoured:iron_repair_materials"
+		"farmersdelight:skillet" = "#raspberry_flavoured:skillet_repair_materials"
 		"farmersdelight:flint_knife" = "#raspberry_flavoured:flint_repair_materials"
 		"farmersdelight:iron_knife" = "#raspberry_flavoured:iron_repair_materials"
 		"farmersdelight:diamond_knife" = "#raspberry_flavoured:diamond_repair_materials"
@@ -568,6 +637,7 @@
 		#Set the attack speed of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_pickaxe" = 2.5
 		[items.tools.attack_speed]
+			"farmersdelight:skillet" = 0.6
 			"savage_and_ravage:cleaver_of_beheading" = 0.6
 			"clash:swept_axe" = 0.6
 			"mace_backport:mace" = 0.8
@@ -778,6 +848,10 @@
 	#"minecraft:diamond_block" = "minecraft:emerald_block"
 	[tilling.tilling]
 		"architects_palette:coarse_snow" = "minecraft:snow_block"
+		"minecraft:sand" = "atmospheric:arid_sand"
+		"minecraft:red_sand" = "atmospheric:red_arid_sand"
+		"atmospheric:arid_sand" = "minecraft:sand"
+		"atmospheric:red_arid_sand" = "minecraft:red_sand"
 
 	#Whether a certain tilling transition needs air above to work. Consists of a block or block regex and a boolean value (true or false). If left unspecified, true is assumed. Example (without the leading #):
 	#"minecraft:diamond_block" = false

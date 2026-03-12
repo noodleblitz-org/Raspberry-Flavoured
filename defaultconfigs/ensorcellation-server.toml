@@ -274,12 +274,12 @@
 
 	[Enchantments.Soulbound]
 		#If TRUE, the Soulbound Enchantment is available.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
-		Treasure = false
+		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment. If permanent, this setting is ignored.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 1
 		#If TRUE, the Soulbound Enchantment is permanent (and will remove excess levels when triggered).
 		Permanent = true
 

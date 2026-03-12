@@ -13,7 +13,9 @@
   "block.architects_palette.lapis_ore_brick_slab": "Lazurite Ore Brick Slab",
   "block.architects_palette.lapis_ore_brick_vertical_slab": "Lazurite Ore Brick Vertical Slab",
   "block.architects_palette.lapis_ore_brick_stairs": "Lazurite Ore Brick Stairs",
+  
   "block.architects_palette.scute_block": "Scute Tiles",
+  
   "block.architects_palette.oak_boards": "Oak Parquetry",
   "block.architects_palette.oak_board_slab": "Oak Parquetry Slab",
   "block.architects_palette.oak_board_stairs": "Oak Parquetry Stairs",
@@ -64,8 +66,11 @@
   "block.architects_palette.mangrove_board_vertical_slab": "Mangrove Parquetry Vertical Slab",
   "block.architects_palette.mangrove_board_wall": "Mangrove Parquetry Wall",
   "block.architects_palette.mangrove_boards": "Mangrove Parquetry",
+  
   "block.architects_palette.nether_brass_torch": "Copper Patina Torch",
+  
   "block.architects_palette.spool": "Spool of String",
+  
   "block.architects_palette.myonite_slab": "Exolite Slab",
   "block.architects_palette.myonite_stairs": "Exolite Stairs",
   "block.architects_palette.myonite_wall": "Exolite Wall",
@@ -105,6 +110,7 @@
   "block.architects_palette.twisted_sapling": "Choral Fungus",
   "block.architects_palette.potted_twisted_sapling": "Potted Choral Fungus",
   "tag.architects_palette.twisted_logs": "Choral Stems",
+  
   "block.architects_palette.sunmetal_block": "Polished Bronze",
   "block.architects_palette.chiseled_sunmetal_block": "Chiseled Bronze",
   "block.architects_palette.sunmetal_pillar": "Bronze Pillar",
@@ -113,12 +119,22 @@
   "block.architects_palette.sunmetal_stairs": "Polished Bronze Stairs",
   "block.architects_palette.sunmetal_bars": "Bronze Bars",
   "block.architects_palette.sunmetal_nub": "Polished Bronze Nub",
+  
   "block.architects_palette.flint_block": "Polished Flint",
-  "architects_palette.info.chiseled_chargeable": "A Heart of the Sea can be placed in these blocks to charge them and all connected Abyssaline or Hadaline blocks.",
-  "architects_palette.info.chargeable": "These blocks can receive power from their Chiseled Brick variants.",
-  "architects_palette.info.totem_carving": "Using an Axe on these totems will cycle their expressions.",
+  
+  "block.architects_palette.charcoal_block": "Charred Log",
+  
+  "block.architects_palette.withered_bone_block": "Large Withered Bone",
+  
+  "block.architects_palette.molten_nether_bricks": "Molten Cauter Bricks",
+  
+  "block.architects_palette.unobtanium_block": "Enigmatic Tiles",
+  
+  "architects_palette.info.chiseled_chargeable": "",
+  "architects_palette.info.chargeable": "",
+  "architects_palette.info.totem_carving": "",
   "architects_palette.info.flint_damage": "",
-  "architects_palette.info.celestial_stones": "Changes state and light level based on time of day. Works in both dimensions.",
+  "architects_palette.info.celestial_stones": "",
   "architects_palette.info.heavy_bricks": "",
   "architects_palette.info.cage_lanterns": "",
   "architects_palette.info.nether_brass": ""

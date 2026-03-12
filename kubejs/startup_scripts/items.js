@@ -30,7 +30,7 @@ StartupEvents.registry('item', event => {
 	event.create('loot_bag').maxStackSize(1).rarity('uncommon')
 	event.create('witch_bag').maxStackSize(1).rarity('uncommon')
 	event.create('herb_bag').maxStackSize(1).rarity('uncommon')
-	
+
 // Food & drinks
 	// Regular
 	event.create('apple_slices').food(food => {
@@ -168,9 +168,9 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('hotdog_with_coleslaw').food(food => {
 		food
-    		.hunger(10)
+    		.hunger(12)
     		.saturation(0.7)
-			.effect('kubejs:satiation', 900, 0, 1)
+			.effect('kubejs:satiation', 1800, 0, 1)
         	})
 	event.create('fried_potato_with_chili').food(food => {
 		food
@@ -181,10 +181,16 @@ StartupEvents.registry('item', event => {
 	event.create('ghast_roll').food(food => {
 		food
     		.hunger(7)
-    		.saturation(0.65)
+    		.saturation(0.7)
 			.effect('regeneration', 900, 0, 1)
         	})
-	event.create('smore').food(food => {
+	event.create('lemon_fudge').group('food').food(food => {
+		food
+    		.hunger(7)
+    		.saturation(0.7)
+			.effect('raspberry:panic', 2100, 1, 1)
+        	})
+	event.create('smore').group('food').food(food => {
 		food
     		.hunger(9)
     		.saturation(0.7)
@@ -227,9 +233,9 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('coleslaw').maxStackSize(16).food(food => {
 		food
-    		.hunger(5)
+    		.hunger(7)
     		.saturation(0.65)
-			.effect('regeneration', 80, 0, 1)
+			.effect('kubejs:satiation', 600, 0, 1)
         	})
 	event.create('corn_fritters').maxStackSize(16).food(food => {
 		food
@@ -251,9 +257,9 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('turkey_stew').maxStackSize(16).food(food => {
 		food
-    		.hunger(11)
-    		.saturation(0.7)
-			.effect('farmersdelight:comfort', 3600, 0, 1)
+    		.hunger(13)
+    		.saturation(0.75)
+			.effect('farmersdelight:comfort', 6000, 0, 1)
         	})
 	event.create('mutton_udon').maxStackSize(16).food(food => {
 		food
@@ -296,7 +302,7 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('coconut_pudding_with_jam').maxStackSize(16).food(food => {
 		food
-    		.hunger(8)
+    		.hunger(9)
     		.saturation(0.7)
 			.effect('regeneration', 400, 0, 1)
         	})
@@ -321,7 +327,7 @@ StartupEvents.registry('item', event => {
 	event.create('preserved_skewer').food(food => {
 		food
     		.hunger(13)
-			.saturation(0.85)
+			.saturation(0.7)
 			.effect('dolphins_grace', 1000, 0, 1)
 			.effect('mynethersdelight:b_pungent', 400, 1, 1)
         	})
@@ -389,7 +395,7 @@ StartupEvents.registry('item', event => {
 		food
     		.hunger(12)
     		.saturation(0.6)
-			.effect('kubejs:satiation', 2400, 0, 1)
+			.effect('kubejs:satiation', 3600, 0, 1)
         	})
 	event.create('cave_burger').food(food => {
 		food
@@ -399,6 +405,7 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('crab_meat').food(food => {
 		food
+			.meat()
     		.hunger(2)
     		.saturation(0.2)
 			.effect('hunger', 600, 0, 0.3)

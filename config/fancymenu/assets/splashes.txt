@@ -163,7 +163,7 @@ Beware of the man who speaks in hands!
 On days like this, kids like you should be playing &lRaspberry Flavoured!
 &l[Hyperlink Blocked]
 [Press F1 for] HELP
-EVERY BUDDY'S FAVORITE [Number 1 Rated Modpack2025]
+EVERY BUDDY'S FAVORITE [Number 1 Rated Modpack2026]
 MY EYES ARE [Burning] LIKE [Campfire Kindling]!
 [this splash text is now] [3 Easy Payments of $9.99]
 Who are you talking to?
@@ -375,7 +375,6 @@ But first, we need to talk about parallel universes!
 I am four parallel universes ahead of you!
 Hinga Dinga Durgen!
 C418 rules!
-Does not contain Baby Fat :(
 Brought back Glup Shitto!
 Free netherite at &nknowyourmeme.com/memes/trollface&r!
 Applied Energistics 2 Walrus!
@@ -565,7 +564,7 @@ Do &lnot &rthe cat!
 You may be entitled to financial compensation!
 What activities is the hound performing?
 Dragons have invaded Dave & Busters!
-&lVote Crabbarition 2025!
+&lVote Crabbarition 2026!
 Vote for Crabs!
 Vanilla is a tech mod!
 Create: Emergent Industry - coming... some day?
@@ -905,7 +904,7 @@ Kachow!
 No merch... yet!
 Never calling 'em "game drops"!
 Creaking out!
-Feelin' hounded!
+&oFeelin' hounded!
 Um... bitchin'?
 Only a little tupid!
 Say that... again!
@@ -1115,7 +1114,7 @@ Speed is key!
 'ticky bomb!
 Thread the needle!
 Vanilla style!
-I'll take a double triple MCreator Deluxe, sixteen by sixteen Vanilla Style, extra mixels with a Farmer and a Delight, make it AI, publish it, and let it slop!
+I'll take a double triple MCreator Deluxe, 16x16 Vanilla Style, extra mixels with a Farmer and a Delight, make it AI, publish it, and let it slop!
 Make a new instance, don't update!
 It's time to ask someone who's actually smart!
 I've been sleepin' in a cardboard box!
@@ -1245,7 +1244,7 @@ YOUR TOO BRIGHT
 I'm old!
 Rebuild my kids!
 HOW THE WHAT THE MAMA WHAT THE HECK THE WOH MAMMA WOAH MAMMA
-And now a WORM from our sponsors!
+And now, a WORM from our sponsors!
 MIKE, the BOARD, please!
 I'm bleedin' Banana Blood!
 All of your thoughts and feelings are wrong!
@@ -1603,10 +1602,10 @@ Too bad these chips are all virtual...
 Looks like I've taught you well!
 You made some heads up plays!
 Good thing I didn't bet against you!
-Life is a drag, life is a chore!
-Frightfully sad, so mindless a bore!
-Good heavens, you're bitter!
-You simply haven't had the fun of watching number go up!
+&oLife is a drag, life is a chore!
+&oFrightfully sad, so mindless a bore!
+&oGood heavens, you're bitter!
+&oYou simply haven't had the fun of watching number go up!
 Raft Avoured!
 You are one giant lump of coal!
 Green is not a creative colour!
@@ -1630,12 +1629,12 @@ Pesky bee!
 Do it healthy!
 Everybody hates you and no one cares!
 Listen to the voices in your brain!
-Such is the way of the woarm!
+Such is the way of the wooaarm!
 That's pretty sorry right there!
 Tragically, the subject is nuanced!
-What about my shredder?!
+What about my &oshreeeddeeer?!
 Every copy of Raspberry Flavoured is personalized!
-Girl, we've been knowing how to draw!
+Girl, we've &obeen &rknowing how to draw!
 I'm the beatboxing puppy!
 Everything's a splash at this point!
 Woke!
@@ -1652,14 +1651,15 @@ So a cucumber is a melon and a melon is a gourd!
 But a gourd is a pepo and a pepo is a berry?!
 What is a cucumber?!
 Absolutely enjoy your wife wanting you 24/7!
-Hot spouse, hotter taxonomy!
+Hot taxonomy, hotter spouse!
 PEPO???????????
 Death to Chronos!
 So mote it be!
 Moonlight guide you!
 Together we shine!
 Time flows freely forth!
-But that's really not important to the story!
+&oThis is a story 'bout a guy named Al!
+&oBut that's really not important to the story!
 Did he just spit on my island?!
 What's stopping me from eliminating you?
 They who persist!
@@ -1676,13 +1676,13 @@ And another!
 How about two!
 One more!
 Electric slam-a-roo!
-pringle chip in your ps2 memory card slot
-Error reading disc
+put pringle chip in your ps2 memory card slot
+[Error reading disc]
 You fight evil, stop powerful bad guys!
 November 2nd!
 December 1st!
-Reaching far across these new frontiers!
-With a stroke of luck, you might become a monster truck!
+&oReaching far across these new frontiers!
+&oWith a stroke of luck, you might become a monster truck!
 What the fucking kind of charcoal is this?
 mlem mlem mlem :3
 Crikey!
@@ -1716,8 +1716,7 @@ Your Driftwood is thirsty, it wants water!
 Mathematical!
 Algebraic!
 Shmow-zow!
-I'm not righteous, I'm wrongteous!
-Stupidteous!
+I'm not righteous, I'm wrongteous! Stupidteous!
 Want to do the science dance with me?
 I feel radder, faster, more adequate!
 Youth culture forever!
@@ -1745,7 +1744,7 @@ You guys are so cute, I could just maul you to death!
 The bazooka goblin has you in its sights!
 Dude, let's kill the horse!
 Easy peasy, livin' greasy!
-Suckin' at somethin' is the first step towards bein' sorta good at somethin!
+Suckin' at somethin' is the first step towards bein' sorta good at somethin'!
 I'm a cat, I'm an agile cat!
 Meow Ice King!
 Let's take it home so I can learn about it with my brain!
@@ -1776,7 +1775,7 @@ You're actually quite endearing!
 But I can't hold a pen!
 How about dark deeds carried out in your name?!
 I saw that!! Abominations can't eat!
-I don't come down to the Owl Shack and... fry up owls?!
+I don't come down to the Owl Shack while you... fry up owls?!
 I was all like, auurrghh!
 It was a good sandwich!
 No sandwich is &othat &rgood!
@@ -1799,28 +1798,165 @@ Grebbie!
 Greb-greb!
 Greb bag!
 An appe a day keeps you grebbin' through the day!
-Sounds like big bro got a hot witch girlfriend and little bro got upset!
+Sounds like big bro got a hot witch girlfriend and li'l bro got upset!
 To get the answer that you seek, answer my riddle within a week!
 Porta-Hooty, reporting for Hooty!
-Special delivery: PAIN!
+Special delivery: &lPAIN!
 Kiss each other!
 I have no son, eat salt!
 Finally, I get to be a part of something!
 I forget I'm here too!
 Yiyi, Mama is I!
 Give me your skin!
-Dumb kids? Those are MY dumb kids!
+Those are &omy &rdumb kids!
 Aww, he stamped his wittle foot!
 Always trust a shoulder demon!
 I have questions about my life!
 I am your god!
 I will be haunted by my actions forever, hoot-hoot!
+But I can't hold a pen!
 Why do I always think that's gonna work?
 I'm a Lesbiab- Lesbiam- Less Bien- Girls!
 Lyn's blibbin'!
 I am at Aldi!
 White streak, speeds by!
 Yeth!
+I'm callin' applesauce on this business bologna!
+I can taste the air!
+Let's boogie down to history town!
+These are the oldest barnacles I've ever had on my head!
+A round boy?
+Spicy toss!
+Shadow's child!
+I need to know about your g-
+I don't think the world is ready for the bold fashion choices of the year 2008!
+One!
+There's ONE EPISODE!
+A duck has the ability to do strange powers!
+Sam handwich!
+The theading leory!
+I just love Radical Highway, Shadow!
+The promised time will arrive once more!
+&oDriving in my car, right after a beer!
+&oHey, that bump is shaped like a deer!
+&oThis is who I am!
+&oNot a shadow of who I want to be!
+Wiggle!
+Always bet on Papyrus Knight!
+I... am... NOT... WEAK!
+&oThe story begins, with who's gonna win!
+&oI will succeed, and you will see!
+&oWith my machines, there is no retreat!
+&oI am the Eggman, that's what I am!
+&oRougher than the rest of them!
+&oThe best of them!
+&oTougher than leather!
+You goin' soft on me, Blight?
+Buy Sonic Superstars!
+I despise waste!
+I'll be your fearless champion!
+You're inadequate!
+Who wants to read my literary masterpiece?!
+Piles and piles of Asriel's dust!
+Your math is no match for my gun, you idiot!
+Not requires OptiFine!
+I act like I don't care, but I secretly do!
+I come from a long line of dweebuses!
+Yep, just a super cute ghost!
+People have poopoo in their head!
+The sweet little peas that we love to see!
+Peachy-meachy-peachy-meachy!
+Oh no! A twist!
+Smoochie Pie, the Sweetie Baby!
+Cupcakes in my tummy-tum makes a King say yummy-yum!
+That's probably fine!
+I'm half beef, half Bob!
+A real man never takes accountability!
+&oWe've got to make it real!
+&oYou're surrounded!
+&oWe get some rules to follow!
+&oThat and this, these and those!
+&oNo one knows!
+1.20.1 when?
+Espio the Chameleon is a character from the Sonic comics!
+Have... you &oever &rhad one?
+This is fine!
+- Removed Raspberries
+Delayed by Hytale!
+Like and subscribe!
+You can't do anything, so don't even try!
+Get some help!
+Don't do what Sonic does!
+It's TV Time!
+It's now time for our feature presentation!
+Feacher!
+Meacher!
+Peacher!
+Coming straight from your house!
+He's groovy, and &onever &rglooby!
+Visit &ngrimbly.club&r!
+The skeleton appears!
+Oh it's the wrong number, the wrong number song!
+We're very very sorry that we got it wrong!
+All of your theories are wrong, goodbye!
+&oThey're detectives you want on your side!
+Togore-tastic!
+Wouldn't you like to know?
+Sans dies in 2 hours!
+Basically just a development update!
+I'm an eepy girl, in a wakey world!
+Ancient fusions between diversions and doorkeys!
+&9Yellow paint&r!
+Remember: &cblue stop signs&r!
+It's like... he's in some king of &bSnowgrave&r!
+&7Jockington &rgrows the beard!
+The &bqueen's chariot &rcannot be stopped!
+It was &ojust &rPictionary!
+Dead fish sperm!
+On my island is buried a treasure chest!
+I'm like eight, maximum!
+You would think!
+You can't get this from an egg!
+French fry, oo, on the freaking ground!
+Dark, darker, yet darker!
+Contains the freedom motif!
+Pooting all over my fries!
+Poopy mayonnaise!
+Mayonnaise on an escalator!
+Straight white maliens!
+You are the villain in this woke lesbian movie!
+It shoots limeys!
+Kaleido's Cope!
+Diwersity vins!
+I'm stupid now!
+Through the stratosphere!
+Hello, I like bread!
+HOUSE
+Doint!
+burgir
+piza
+kat
+Relax, enjoy!
+Welcome back!
+I wanted to say hello!
+hoohoohooweeeeeeee :3
+Bring a gas can with you!
+The grandmothers are growing restless!
+Who are you? I am from Ancient Greece!
+I want to be a structure void!
+Become soup!
+More trapdoors!
+Don't underestimate a grebbie!
+/hj is worse than useless!
+/hungry jacks
+Do not eat Sculk, you will die!
+Who done pooted on my biome and my sand and my glass and my armor and my iron?!
+Go wifey, go!
+i love my puter :3
+i love my wifer :3
+Barrel of fun!
+Call me Hagrid the way I get rid of this hag!
+Flongle Dongle!
 Justice for seagulls!
 Justice for crabs!
 Justice for tuff golems!
@@ -1882,10 +2018,12 @@ Has &lSupplementaries!
 Has &lTwigs!
 Has &lUpgrade Aquatic!
 Has &lWindswept!
-Doesn't have Create 6... sorry!
+Doesn't have Create 6 :(
+Doesn't have Baby Fat :(
 &oDon't &rtry &lSonic Origins!
 &oDon't &rtry &lSonic Omens!
 &oDon't &rtry &lSonic Eraser!
+&oDon't &rtry &lSonic Forces!
 &oDon't &rtry &lBetter Minecraft!
 &oDon't &rtry &lRLCraft!
 &oDon't &rtry &lAI!
@@ -1899,10 +2037,13 @@ Also try &lBig's Big Fishing Derby!
 Also try &lBloons TD 6!
 Also try &lCave Story!
 Also try &lChibi-Robo: Zip-Lash!
+Also try &lClutter No More!
 Also try &lCobblemon: Flint & Steel!
+Also try &lCore Keeper!
 Also try &lCreate: Broken Bad!
 Also try &lCreate: Estrogen!
 Also try &lDB3K!
+Also try &lDeltarune!
 Also try &lDonkey Kong: Barrel Blast!
 Also try &lEmber Knights!
 Also try &lFactorio!
@@ -1922,8 +2063,14 @@ Also try &lGrimbly Schmeggle 7: The Luckiest Number!
 Also try &lGrimbly Schmeggle 8: Eight! Eight! Eight!
 Also try &lGrimbly Schmeggle 9: The One Before the Tenth One!
 Also try &lGrimbly Schmeggle 10: The End of All Things!
+Also try &lGrimbly Schmeggle 11: But Wait, There's More!
+Also try &lGrimbly Schmeggle 12: Spectra Scramble!
+Also try &lGrimbly Schmeggle 13: The Unluckiest Number!
+Also try &lGrimbly Schmeggle 14: Artemis Strikes Back!
+Also try &lGrimbly Schmeggle 15: Dawn of Delilah!
 Also try &lHades!
 Also try &lHades II!
+Also try &lHytale!
 Also try &lInfinity Plus!
 Also try &lInscryption!
 Also try &lLand Ahoy!
@@ -1935,23 +2082,26 @@ Also try &lMario Tennis: Ultra Smash!
 Also try &lMinecraft 2: The Alternate Timeline!
 Also try &lMinecraft 3D: Lost Floppies!
 Also try &lModest Mining!
-Also try &lMuddy Routes!
 Also try &lMusketeer!
+Also try &lNo Man's Land!
+Also try &lNull End Void!
 Also try &lOMORI!
 Also try &lPheasants Forever: Wingshooter!
-Also try &lPisciculture!
 Also try &lPizza Tower!
 Also try &lPlayful!
 Also try &lPlug Cembuin!
-Also try &lPortal 2!
 Also try &lPortal!
+Also try &lPortal 2!
 Also try &lPotion Craft!
 Also try &lPyrite!
-Also try &lQin's Artificery!
 Also try &lRaspberry Flavoured: Full Flavour - Digital Deluxe!
+Also try &lReliable Recipe Viewer!
+Also try &lReliable Recipes!
+Also try &lReliable Remover!
 Also try &lReminiscence!
 Also try &lRose's Reimagined Minecraft!
 Also try &lShattered Depths!
+Also try &lShutter Up!
 Also try &lSimply Craftmine!
 Also try &lSimply Infinite!
 Also try &lSlay the Spire!
@@ -1967,11 +2117,13 @@ Also try &lSonic Rumble!
 Also try &lSonic Runners Revival!
 Also try &lSonic Spinball!
 Also try &lSonic Sunventure!
+Also try &lSonic Superstars!
 Also try &lSonic X Shadow Generations!
+Also try &lSpore!
 Also try &lSteven Universe: Attack the Light!
 Also try &lSteven Universe: Save the Light!
 Also try &lSteven Universe: Unleash the Light!
-Also try &lSticky Situation!
+Also try &lSticky Business!
 Also try &lSuper Mario Bros. Wonder!
 Also try &lSurvivalcraft!
 Also try &lTerralink!
@@ -1980,19 +2132,26 @@ Also try &lThe Impossible Quiz!
 Also try &lThe Stanley Parable!
 Also try &lThe Stanley Parable: Ultra Deluxe!
 Also try &lTherapy!
+Also try &lThere's Always a Bigger Fish!
+Also try &lToil and Trouble!
 Also try &lTouching Grass!
+Also try &lUndertale!
 Also try &lUndertale Yellow!
 Also try &lVanilla Extract!
+Also try &lVanilla Tea!
 Also try &lVerditen!
 Also try &lVintage Story!
 Also try &lViva Piñata!
 Also try &lViva Piñata: Party Animals!
 Also try &lViva Piñata: Trouble in Paradise!
+Also try &lWayfarer!
+Also try &lWilder Flowers!
 Also try &lWobbledogs!
 Also try &lWorm 64!
 Also try &lYIIK: A Post-Modern RPG!
 Now Tio Flavoured! Mmm, spicy.
-&lSubscribe to raspmary! &r... please?
+Subscribe to &lraspmary! &r... please?
+Subscribe to &lBaisylia! &r:3
 love you bailey <3
 Shoutout to &lBaisylia! <3
 Shoutout to &lcassiancc!
@@ -2037,6 +2196,9 @@ Shoutout to &lCosmonautic!
 Shoutout to &lIceMcFall!
 Shoutout to &lWestoro!
 Shoutout to &lMisty Rio Strider!
+Shoutout to &lBitchfucker Smith!
+Shoutout to &lSlim Jim!
+Shoutout to &lTim Berry!
 Shoutout to &lChef's Delights!
 Shoutout to &lSonicBoss1991!
 Shoutout to &lPalm!
@@ -2045,4 +2207,4 @@ Shoutout to &lSpncr!
 Shoutout to &lThe Sonic Hangout!
 Shoutout to &lthe RF Discord server!
 244 mods!
-This splash has a &l1 &rin &l2048 &rchance of showing up!
+This splash has a &l1 &rin &l2167 &rchance of showing up!

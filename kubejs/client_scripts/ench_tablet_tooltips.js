@@ -113,7 +113,7 @@ ItemEvents.tooltip(event => {
         tablet_tooltip(event, text, [
             ["kubejs:guard_break", 3, ["rf.ench.melee_weapons"], 1],
             ["additional_enchantments:bracewalk", 3, ["rf.ench.leggings"], 3],
-            ["allurement:shockwave", 5, ["rf.ench.boots"], 2]
+            ["allurement:shockwave", 4, ["rf.ench.boots"], 2]
         ])
 	})
 	
@@ -154,6 +154,12 @@ ItemEvents.tooltip(event => {
         tablet_tooltip(event, text, [
             ["allurement:reeling", 2, ["item.minecraft.crossbow"], 2],
             ["ensorcellation:reach", 3, ["rf.ench.chestplate"], 1]
+        ])
+	})
+	
+	event.addAdvanced('kubejs:recollection_tablet', (item, advanced, text) => {
+        tablet_tooltip(event, text, [
+            ["ensorcellation:soulbound", 1, ["rf.ench.equipment_utility"], 1]
         ])
 	})
 	

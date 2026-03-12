@@ -55,7 +55,7 @@
                 "weight": 100.0
               }
             ],
-			"minecraft:bone_block": [
+			"kubejs:bone_pile": [
 			  {
                 "id": "minecraft:calcite",
                 "weight": 100.0
@@ -100,6 +100,12 @@
 		  "architects_palette:ender_pearl_block": [
 			{
               "id": "kubejs:cobbled_exolite",
+              "weight": 100.0
+            }
+          ],
+		  "*": [
+			{
+              "id": "minecraft:magma_block",
               "weight": 100.0
             }
           ]

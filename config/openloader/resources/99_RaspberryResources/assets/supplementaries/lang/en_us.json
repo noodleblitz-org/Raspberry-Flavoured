@@ -14,6 +14,10 @@
   "block.supplementaries.cog_block": "Redstone Connector",
   "block.supplementaries.prismarine_rod": "Prismarine Rod",
   "block.supplementaries.ash": "Pile of Ash",
+  
+  "item.supplementaries.ash": "Pile of Ash",
   "item.supplementaries.wrench": "Builder's Wrench",
-  "item.supplementaries.candy": "Butterscotch Candy"
+  "item.supplementaries.candy": "Butterscotch Candy",
+  
+  "subtitle.supplementaries.gunpowder.ignite": "Blast Powder fizzles"
 }

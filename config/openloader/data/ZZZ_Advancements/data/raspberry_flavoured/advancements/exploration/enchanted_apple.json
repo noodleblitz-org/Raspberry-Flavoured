@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/dungeon",
+  "parent": "raspberry_flavoured:exploration/silver_mirror",
   "criteria": {
     "0": {
       "conditions": {

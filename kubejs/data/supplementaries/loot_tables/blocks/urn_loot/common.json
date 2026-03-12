@@ -7,14 +7,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 4.0,
-                "max": 12.0
+                "max": 8.0
               },
               "add": false
             }
@@ -23,14 +23,14 @@
         },
 		{
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8.0,
-                "max": 24.0
+                "min": 4.0,
+                "max": 8.0
               },
               "add": false
             }
@@ -45,13 +45,45 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4.0,
-                "max": 16.0
+                "min": 3.0,
+                "max": 6.0
+              },
+              "add": false
+            }
+          ],
+          "name": "twigs:twig"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 6.0
               },
               "add": false
             }
           ],
           "name": "minecraft:flint"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "kubejs:cloth_scrap"
         },
         {
           "type": "minecraft:item",
@@ -62,7 +94,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
+                "max": 2.0
               },
               "add": false
             }
@@ -71,14 +103,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
+                "max": 2.0
               },
               "add": false
             }
@@ -93,24 +125,24 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 9.0
+                "min": 6.0,
+                "max": 12.0
               },
               "add": false
             }
           ],
-          "name": "minecraft:bone"
+          "name": "minecraft:bone_meal"
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6.0,
-                "max": 18.0
+                "min": 4.0,
+                "max": 8.0
               },
               "add": false
             }
@@ -125,8 +157,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 9.0
+                "min": 2.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -141,8 +173,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 9.0
+                "min": 2.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -151,14 +183,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 9.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -167,14 +199,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 9.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -183,14 +215,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 9.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -199,14 +231,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 9.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }

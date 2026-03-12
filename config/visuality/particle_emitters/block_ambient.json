@@ -46,7 +46,8 @@
     {
       "block": [
         "minecraft:magma_block",
-        "kubejs:heating_cask"
+        "kubejs:heating_cask",
+        "architects_palette:molten_nether_bricks"
       ],
       "particle": {
         "type": "minecraft:smoke"
@@ -72,7 +73,11 @@
         "kubejs:lachryte_bricks",
         "kubejs:lachryte_brick_slab",
         "kubejs:lachryte_brick_stairs",
-        "kubejs:lachryte_brick_wall"
+        "kubejs:lachryte_brick_wall",
+        "architects_palette:unobtanium_block",
+        "kubejs:enigmatic_tile_slab",
+        "kubejs:enigmatic_tile_stairs",
+        "kubejs:enigmatic_tile_wall"
       ],
       "particle": {
         "type": "minecraft:portal"

@@ -39,6 +39,10 @@
     "title": "Kronos Island",
     "author": "Tomoya Ohtani"
   },
+  "minecraft:music/game/kronos": {
+    "title": "Ares Island",
+    "author": "Tomoya Ohtani"
+  },
   "minecraft:music/game/end/credits": {
     "title": "Alpha",
     "author": "C418"
@@ -250,6 +254,10 @@
   "minecraft:music/game/nether/ams": {
     "title": "Ams",
     "author": "C418"
+  },
+  "minecraft:music/game/nether/resurrections": {
+    "title": "Resurrections",
+    "author": "Lena Raine"
   },
   "minecraft:music/game/ancestry": {
     "title": "Ancestry",

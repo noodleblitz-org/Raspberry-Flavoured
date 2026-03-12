@@ -59,7 +59,7 @@
     "minecraft:block.glass.step": "glass",
     "minecraft:block.nether_bricks.step": "brickstone",
     "minecraft:block.azalea.step": "leaves",
-    "minecraft:block.rooted_dirt.step": "dirt,gravel",
+    "minecraft:block.rooted_dirt.step": "dirt",
     "minecraft:block.stem.step": "organic_dry,mushroom,stone",
     "minecraft:block.hanging_roots.step": "NOT_EMITTER",
     "minecraft:block.small_dripleaf.step": "NOT_EMITTER",
