@@ -45,11 +45,10 @@ etched-sounds/
 fancymenu_data
 logs
 emf
-data
+/data
 .qmenu_opened.marker
-xaero
+/xaero
 emi.json
-data
 !kubejs/data
 .qmenu_opened.marker
 icon.png
@@ -67,6 +66,7 @@ index.toml
 .nojekyll
 .packwizignore
 .lazyyyyy/
+XaeroWaypoints_*
 
 # Files from Forge MDK
 forge*changelog.txt
@@ -76,7 +76,6 @@ instance.json
 
 # macOS
 .DS_Store
-/xaero
 packwiz.json
 packwiz-installer.jar
 packwiz-installer-bootstrap.jar

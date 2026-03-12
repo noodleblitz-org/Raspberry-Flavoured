@@ -179,6 +179,22 @@
 		"kubejs:enigmatic_tile_slab" = true
 		"kubejs:enigmatic_tile_stairs" = true
 		"kubejs:enigmatic_tile_wall" = true
+		"minecraft:ghast_tear" = true
+		"kubejs:lachryte" = true
+		"kubejs:lachryte_slab" = true
+		"kubejs:lachryte_stairs" = true
+		"kubejs:lachryte_wall" = true
+		"kubejs:polished_lachryte" = true
+		"kubejs:polished_lachryte_slab" = true
+		"kubejs:polished_lachryte_stairs" = true
+		"kubejs:polished_lachryte_wall" = true
+		"kubejs:lachryte_bricks" = true
+		"kubejs:lachryte_brick_slab" = true
+		"kubejs:lachryte_brick_stairs" = true
+		"kubejs:lachryte_brick_wall" = true
+		"kubejs:chiseled_lachryte" = true
+		"raspberry:swap_arrow" = true
+		"spelunkery:portal_fluid_bottle" = true
 
 	#Set the rarity (item color) of an item. Must be a valid rarity name. Example (without the leading #):
 	#"minecraft:beacon" = "common"

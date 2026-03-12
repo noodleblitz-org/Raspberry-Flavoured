@@ -1152,7 +1152,17 @@ ItemEvents.modification(event => {
     })
 	event.modify('aquaculture:minnow', item => {
         item.foodProperties = food => {
-            food.hunger(1).saturation(0.15)
+            food.hunger(1).saturation(0.1)
+        }
+    })
+	event.modify('minecraft:pufferfish', item => {
+        item.foodProperties = food => {
+            food.hunger(2).removeEffect('poison').removeEffect('nausea').removeEffect('hunger').effect('poison', 1200, 2, 1).effect('nausea', 1200, 0, 1)
+        }
+    })
+	event.modify('upgrade_aquatic:lionfish', item => {
+        item.foodProperties = food => {
+            food.removeEffect('poison').removeEffect('nausea').effect('poison', 1200, 2, 1).effect('nausea', 1200, 0, 1)
         }
     })
 	

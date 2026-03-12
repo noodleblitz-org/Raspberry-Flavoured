@@ -8,9 +8,9 @@
   },
   "downfall": 0.0,
   "effects": {
-    "fog_color": 14863798,
-    "foliage_color": 12092997,
-    "grass_color": 10189901,
+    "fog_color": 14332026,
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,25 +21,22 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.badlands"
+      "sound": "kubejs:music.overworld.arid"
     },
-    "sky_color": 6659253,
-    "water_color": 4816793,
-    "water_fog_color": 198666
+    "sky_color": 14525284,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
-    "#clifftree:badlands_terracotta",
+    [],
     [
       "minecraft:lake_lava_underground",
-      "clifftree:lake_lava_surface_red_sandstone",
-      "clifftree:disk_red_sand_filler"
+      "minecraft:lake_lava_surface"
     ],
     [
       "minecraft:amethyst_geode"
     ],
     [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower",
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
@@ -65,14 +62,16 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:ore_gold_extra"
+      "minecraft:ore_gold_extra",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
     [],
     [
@@ -81,20 +80,19 @@
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:patch_grass_badlands",
       "minecraft:patch_dead_bush_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_badlands",
       "minecraft:patch_pumpkin",
-      "clifftree:patch_cactus_badlands",
-      "clifftree:patch_bush_badlands"
+      "minecraft:patch_cactus_decorated"
     ],
-    [ 
-    
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -106,14 +104,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:armadillo",
-        "maxCount": 2,
-        "minCount": 2,
-        "weight": 10
-      }
-      ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -126,7 +117,7 @@
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 15
+        "weight": 95
       },
       {
         "type": "minecraft:zombie_villager",
@@ -163,12 +154,6 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
-      },
-      {
-        "type": "minecraft:husk",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
       }
     ],
     "underground_water_creature": [
@@ -182,6 +167,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 2.0,
-  "creature_spawn_probability": 0.07
+  "temperature": 2.0
 }

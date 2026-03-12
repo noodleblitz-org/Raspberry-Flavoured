@@ -90,6 +90,17 @@
               ]
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 20,
           "name": "aquaculture:pink_salmon"
         },
@@ -334,6 +345,17 @@
               "predicate": {
                 "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_dry", "minecraft:is_jungle"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 55,

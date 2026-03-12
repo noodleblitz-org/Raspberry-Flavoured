@@ -8,7 +8,7 @@
   },
   "downfall": 0.0,
   "effects": {
-    "fog_color": 14411213,
+    "fog_color": 13883528,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -19,19 +19,17 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.desert"
+      "sound": "kubejs:music.overworld.arid"
     },
-    "sky_color": 8109009,
-    "water_color": 2854026,
-    "water_fog_color": 198922
+    "sky_color": 11777385,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
-    [
-    ],
+    [],
     [
       "minecraft:lake_lava_underground",
-      "clifftree:lake_lava_surface_sandstone",
-      "clifftree:disk_sandstone_filler"
+      "minecraft:lake_lava_surface"
     ],
     [
       "minecraft:amethyst_geode"
@@ -43,7 +41,7 @@
       "minecraft:monster_room_deep"
     ],
     [
-      "clifftree:desert_well_common"
+      "minecraft:desert_well"
     ],
     [],
     [
@@ -66,15 +64,17 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
-    "#clifftree:extra_gold_remove",
+    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -90,12 +90,11 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_cactus_desert"
     ],
-    [ 
-    
+    [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -110,9 +109,9 @@
     "creature": [
       {
         "type": "minecraft:rabbit",
-        "maxCount": 4,
-        "minCount": 3,
-        "weight": 9
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
       }
     ],
     "misc": [],
@@ -127,13 +126,13 @@
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 15
+        "weight": 19
       },
       {
         "type": "minecraft:zombie_villager",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
+        "weight": 1
       },
       {
         "type": "minecraft:skeleton",
@@ -183,6 +182,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 2.0,
-  "creature_spawn_probability": 0.07
+  "temperature": 2.0
 }

@@ -464,7 +464,6 @@ ServerEvents.recipes(event => {
 	event.shaped('4x architects_palette:sunstone', ['AB', 'BA'], {A: 'minecraft:basalt', B: 'alloyed:bronze_ingot'}).id('architects_palette:sunstone')
 	event.shaped('8x architects_palette:plating_block', [' B ', 'BAB', ' B '], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('architects_palette:plating_block')
 	event.shaped('incubation:twig_nest', ['A A', 'AAA'], {A: 'twigs:twig'})
-	event.shaped('etched:blank_music_disc', ['AAA', 'A A', 'AAA'], {A: 'minecraft:disc_fragment_5'})
 	event.shaped('create:peculiar_bell', [' B ', 'BAB', ' B '], {A: 'minecraft:bell', B: 'create:brass_ingot'}).id('create:crafting/curiosities/peculiar_bell')
 	event.shaped('2x minecraft:ender_chest', ['AAA', 'ABA', 'AAA'], {A: 'obsidian', B: 'ender_eye'}).id('minecraft:ender_chest')
 	event.shaped('8x supplementaries:slice_map', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:map', B: 'caverns_and_chasms:depth_gauge'}).id('supplementaries:slice_map')
@@ -833,18 +832,6 @@ ServerEvents.recipes(event => {
 	event.shaped('another_furniture:mangrove_drawer', ['AAA', 'BCB', 'AAA'], {A: 'mangrove_planks', B: 'mangrove_slab', C: 'stick'}).id('another_furniture:mangrove_drawer')
 	event.shaped('another_furniture:crimson_drawer', ['AAA', 'BCB', 'AAA'], {A: 'crimson_planks', B: 'crimson_slab', C: 'stick'}).id('another_furniture:crimson_drawer')
 	event.shaped('another_furniture:warped_drawer', ['AAA', 'BCB', 'AAA'], {A: 'warped_planks', B: 'warped_slab', C: 'stick'}).id('another_furniture:warped_drawer')
-	
-	event.shaped('music_disc_otherside', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: '#quark:runes_lootable'})
-	event.shaped('kubejs:music_disc_shimmer', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'quark:glow_shroom'})
-	event.shaped('kubejs:music_disc_frontier', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: ['hay_block', 'farmersdelight:rice_bale', 'farmersdelight:straw_bale', 'supplementaries:flax_block']})
-	event.shaped('kubejs:music_disc_origin', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'sweet_berries'})
-	event.shaped('kubejs:music_disc_droopy1', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: '#forge:heads'})
-	event.shaped('kubejs:music_disc_eleven', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'music_disc_11'})
-	event.shaped('kubejs:music_disc_fruitiger', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'kubejs:golden_strawberries'})
-	event.shaped('kubejs:music_disc_redstone_baby', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'spelunkery:cinnabar'})
-	event.shaped('kubejs:music_disc_one', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'diamond'})
-	event.shaped('kubejs:music_disc_artisan', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: '#raspberry_flavoured:dye_items'})
-	event.shaped('kubejs:music_disc_pancake', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'supplementaries:pancake'})
 
 // Smelting
 	event.smelting('culturaldelights:smoked_eggplant', 'culturaldelights:eggplant')
@@ -1388,6 +1375,72 @@ ServerEvents.recipes(event => {
 	pattern: ['AA', 'BB', 'AA'], 
 	key: {A: {tag: 'raspberry_flavoured:obsidian'}, B: {tag: 'raspberry_flavoured:prismarine'}}, 
 	result: {item: 'architects_palette:abyssaline', count: 6}}).id('architects_palette:abyssaline')
+	
+	// Discs
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'A A', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}}, 
+	result: {item: 'etched:blank_music_disc'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {tag: 'quark:runes_lootable'}}, 
+	result: {item: 'minecraft:music_disc_otherside'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'quark:berry_sack'}}, 
+	result: {item: 'berry_good:music_disc_fox'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'windswept:glow_shroom_basket'}}, 
+	result: {item: 'kubejs:music_disc_shimmer'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {tag: 'raspberry_flavoured:bales'}}, 
+	result: {item: 'kubejs:music_disc_frontier'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'neapolitan:white_strawberry_basket'}}, 
+	result: {item: 'kubejs:music_disc_origin'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {tag: 'forge:heads'}}, 
+	result: {item: 'kubejs:music_disc_droopy1'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'minecraft:music_disc_11'}}, 
+	result: {item: 'kubejs:music_disc_eleven'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'kubejs:golden_strawberries'}}, 
+	result: {item: 'kubejs:music_disc_fruitiger'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'spelunkery:cinnabar'}}, 
+	result: {item: 'kubejs:music_disc_redstone_baby'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'minecraft:diamond'}}, 
+	result: {item: 'kubejs:music_disc_one'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {tag: 'raspberry_flavoured:dye_items'}}, 
+	result: {item: 'kubejs:music_disc_artisan'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'supplementaries:pancake'}}, 
+	result: {item: 'kubejs:music_disc_pancake'}})
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'minecraft:echo_shard'}}, 
+	result: {item: 'minecraft:music_disc_5'}}).id('minecraft:music_disc_5')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'upgrade_aquatic:tooth_block'}}, 
+	result: {item: 'upgrade_aquatic:music_disc_atlantis'}}).id('upgrade_aquatic:music_disc_atlantis')
+	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
+	pattern: ['AAA', 'ABA', 'AAA'], 
+	key: {A: {item: 'minecraft:disc_fragment_5'}, B: {item: 'create:crushed_raw_lead'}}, 
+	result: {item: 'oreganized:music_disc_structure'}}).id('oreganized:music_disc_structure')
 	
 // Smithing
 	event.smithing('minecraft:recovery_compass', 'minecraft:compass', 'quark:soul_bead').id('minecraft:recovery_compass')
