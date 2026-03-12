@@ -1,5 +1,5 @@
 // priority: 0
-
+/*FIXME
 ItemEvents.modification(event => {
 	// remove from creative
 	event.modify([
@@ -5525,3 +5525,4 @@ ItemEvents.modification(event => {
 		item.category = Utils.findCreativeTab("brewing")
 	})
 })
+*/

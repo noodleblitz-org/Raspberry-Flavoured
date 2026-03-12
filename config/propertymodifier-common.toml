@@ -112,11 +112,6 @@
 	#"minecraft:ender_pearl" = 64
 	max_stack_size = {}
 
-	#Set the item group (creative tab) of an item. Use "missingno" to remove the item from any item groups. Example (without the leading #):
-	#"minecraft:command_block" = "decorations"
-	[items.group]
-		test = ""
-
 	#Set this value to true to make an item fire resistant (like netherite is), or set it to false to make it burn in fire and lava. Example (without the leading #):
 	#"minecraft:netherite_ingot" = false
 	[items.fire_resistant]

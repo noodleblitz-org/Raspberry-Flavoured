@@ -184,13 +184,13 @@ StartupEvents.registry('item', event => {
     		.saturation(0.7)
 			.effect('regeneration', 900, 0, 1)
         	})
-	event.create('lemon_fudge').group('food').food(food => {
+	event.create('lemon_fudge').food(food => {
 		food
     		.hunger(7)
     		.saturation(0.7)
 			.effect('raspberry:panic', 2100, 1, 1)
         	})
-	event.create('smore').group('food').food(food => {
+	event.create('smore').food(food => {
 		food
     		.hunger(9)
     		.saturation(0.7)
