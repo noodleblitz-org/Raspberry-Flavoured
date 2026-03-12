@@ -76,8 +76,12 @@
     },
     "cold": {
       "overall": 1,
-      "bird-ambience": 0.10332103073596954,
-      "owl": 0.254612535238266
+      "wind.light-wind": 1
+    },
+    "desert": {
+      "overall": 1,
+      "cicadas-desert": 1,
+      "wind.light-wind": 1
     },
     "forest_cold": {
       "overall": 1,
