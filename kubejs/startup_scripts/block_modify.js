@@ -237,6 +237,7 @@ BlockEvents.modification(event => {
 	breakFast('architects_palette:hadaline_lamp', 8)
 	breakFast('architects_palette:hadaline_plating', 8)
 	breakFast('minecraft:ender_chest', 4)
+	breakFast('modestmagic:altar', 4)
 	breakFast('quark:ender_watcher', 4)
 	breakFast('quark:obsidian_pressure_plate', 2)
 	

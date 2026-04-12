@@ -215,7 +215,13 @@ ItemEvents.modification(event => {
 	'mynethersdelight:hot_wings_bucket',
 	'mynethersdelight:hot_cream',
 	'raspberry:cat_food',
-	'raspberry:atlas'
+	'raspberry:atlas',
+	'kubejs:electrum_horse_armor',
+	'kubejs:rose_gold_horse_armor',
+	'kubejs:steel_horse_armor',
+	'kubejs:necromium_horse_armor',
+	'kubejs:netherite_horse_armor',
+	'kubejs:copper_horse_armor'
 	], item => {item.maxStackSize = 16})
 	
 // Stack to 64

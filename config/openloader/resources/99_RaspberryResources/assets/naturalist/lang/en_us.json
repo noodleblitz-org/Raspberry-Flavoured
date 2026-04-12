@@ -144,10 +144,10 @@
   "block.naturalist.smooth_shellstone_wall": "Polished Shellstone Wall",
 
   
-  "item.minecraft.tipped_arrow.effect.forest_dasher": "Arrow of the Forest Dasher",
-  "item.minecraft.potion.effect.forest_dasher": "Potion of the Forest Dasher",
-  "item.minecraft.splash_potion.effect.forest_dasher": "Splash Potion of the Forest Dasher",
-  "item.minecraft.lingering_potion.effect.forest_dasher": "Lingering Potion of the Forest Dasher",
+  "item.minecraft.tipped_arrow.effect.forest_dasher": "Arrow of the Fleet-Footed",
+  "item.minecraft.potion.effect.forest_dasher": "Potion of the Fleet-Footed",
+  "item.minecraft.splash_potion.effect.forest_dasher": "Splash Potion of the Fleet-Footed",
+  "item.minecraft.lingering_potion.effect.forest_dasher": "Lingering Potion of the Fleet-Footed",
   "item.minecraft.tipped_arrow.effect.glowing": "Arrow of Glowing",
   "item.minecraft.potion.effect.glowing": "Potion of Glowing",
   "item.minecraft.splash_potion.effect.glowing": "Splash Potion of Glowing",

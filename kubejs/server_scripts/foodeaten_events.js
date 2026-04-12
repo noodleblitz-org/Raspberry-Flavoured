@@ -1,12 +1,6 @@
 // priority: 0
 
 // Misc. food events
-ItemEvents.foodEaten('minecraft:glistering_melon_slice', event =>{
-	event.player.heal(2)
-})
-ItemEvents.foodEaten('kubejs:golden_strawberries', event =>{
-	event.player.heal(4)
-})
 ItemEvents.foodEaten('kubejs:sporedough', event =>{
 	event.entity.block.createExplosion().strength(0.775).damagesTerrain(false).explode()
 })
@@ -17,8 +11,43 @@ ItemEvents.foodEaten('cookscollection:cooking_oil', event =>{
 	let rainCheck = event.level.isRaining()
 	let thunderCheck = event.level.isThundering()
 	if (rainCheck === true || thunderCheck === true) {
-		event.player.potionEffects.add('minecraft:levitation', 200, 0, true, false)
+		event.player.potionEffects.add('minecraft:levitation', 100, 0, true, false)
 	}
+})
+
+// Food cooldowns
+const strawberryFood = [
+	'neapolitan:strawberries',
+	'neapolitan:white_strawberries',
+	'neapolitan:strawberry_scones',
+	'neapolitan:strawberry_ice_cream',
+	'neapolitan:strawberry_milkshake',
+	'neapolitan:chocolate_strawberries',
+	'neapolitan:strawberry_banana_smoothie',
+	'abnormals_delight:strawberry_cake_slice'
+]
+ItemEvents.foodEaten(event => {
+	if (strawberryFood.includes(event.item.id)) {
+    	event.player.addItemCooldown(event.item.id, 60)
+	}
+})
+
+ItemEvents.foodEaten('minecraft:golden_carrot', event =>{
+    event.player.addItemCooldown('minecraft:golden_carrot', 30)
+})
+ItemEvents.foodEaten('minecraft:glistering_melon_slice', event =>{
+	event.player.heal(2)
+    event.player.addItemCooldown('minecraft:glistering_melon_slice', 60)
+})
+ItemEvents.foodEaten('minecraft:golden_apple', event =>{
+    event.player.addItemCooldown('minecraft:golden_apple', 100)
+})
+ItemEvents.foodEaten('kubejs:golden_strawberries', event =>{
+	event.player.heal(4)
+    event.player.addItemCooldown('kubejs:golden_strawberries', 140)
+})
+ItemEvents.foodEaten('minecraft:enchanted_golden_apple', event =>{
+    event.player.addItemCooldown('minecraft:enchanted_golden_apple', 240)
 })
 
 // Make custom BnC drinks apply increasing tipsy effect
@@ -132,33 +161,13 @@ ItemEvents.foodEaten([
 })
 
 // Returns bowl
-ItemEvents.foodEaten([
-	'kubejs:corn_fritters',
-	'kubejs:oatmeal',
-	'kubejs:mixed_oatmeal',
-	'kubejs:squid_stir_fry',
-	'kubejs:turkey_stew',
-	'kubejs:pasta_with_turkey',
-	'kubejs:mutton_udon',
-	'kubejs:cinnamon_mint_curry',
-	'kubejs:prismatic_ice_cream',
-	'kubejs:batter',
-	'kubejs:takoyaki',
-	'kubejs:glow_ink_pasta',
-	'kubejs:white_fish_soup',
-	'kubejs:tambaqui_curry',
-	'kubejs:pollock_with_vegetables',
-	'kubejs:pasta_with_tuna',
-	'kubejs:rollmops',
-	'kubejs:spicy_crab_cakes',
-	'kubejs:coconut_crusted_gar',
-	'kubejs:coconut_pudding_with_jam',
-	'kubejs:coleslaw'
-	], event => {
+ItemEvents.foodEaten(event => {
+	if (event.item.hasTag('raspberry_flavoured:all_bowl_foods') && event.item.id.includes('kubejs')) {
 		if (!event.player.isCreative()) {
 			event.server.schedule(1, callback => {
 				event.player.giveInHand('minecraft:bowl')
-		})
+			})
+		}
 	}
 })
 

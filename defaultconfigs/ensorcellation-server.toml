@@ -220,7 +220,7 @@
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 1
+		"Max Level" = 3
 
 	[Enchantments.Trueshot]
 		#If TRUE, the Trueshot Enchantment is available for various Bows.

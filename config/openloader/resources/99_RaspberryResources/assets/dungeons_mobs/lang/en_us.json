@@ -1,11 +1,8 @@
 {
   "entity.dungeons_mobs.jungle_zombie": "Bogged",
-  "item.dungeons_mobs.jungle_zombie_spawn_egg": "Bogged Spawn Egg",
   "entity.dungeons_mobs.frozen_zombie": "Frostbitten",
-  "item.dungeons_mobs.frozen_zombie_spawn_egg": "Frostbitten Spawn Egg",
 
   "entity.dungeons_mobs.mossy_skeleton": "Mired",
-  "item.dungeons_mobs.mossy_skeleton_spawn_egg": "Mired Spawn Egg",
   "entity.dungeons_mobs.skeleton_vanguard": "Skeleton Vanguard",
   "item.dungeons_mobs.skeleton_vanguard_spawn_egg": "Skeleton Vanguard Spawn Egg",
   "entity.dungeons_mobs.skeleton_horseman": "Skeleton Horseman",
@@ -72,7 +69,6 @@
   "entity.dungeons_mobs.blue_nethershrooom": "Blue Nethershroom",
 
   "entity.dungeons_mobs.icy_creeper": "Freeper",
-  "item.dungeons_mobs.icy_creeper_spawn_egg": "Freeper Spawn Egg",
 
   "entity.dungeons_mobs.wraith": "Wraith",
   "item.dungeons_mobs.wraith_spawn_egg": "Wraith Spawn Egg",
@@ -113,7 +109,6 @@
   "entity.dungeons_mobs.armored_sunken_skeleton": "Armored Sunken Skeleton",
   "item.dungeons_mobs.armored_sunken_skeleton_spawn_egg": "Armored Sunken Skeleton Spawn Egg",
   "entity.dungeons_mobs.sunken_skeleton": "Sunken",
-  "item.dungeons_mobs.sunken_skeleton_spawn_egg": "Sunken Spawn Egg",
   "entity.dungeons_mobs.wavewhisperer": "Wavewhisperer",
   "item.dungeons_mobs.wavewhisperer_spawn_egg": "Wavewhisperer Spawn Egg",
   "entity.dungeons_mobs.poison_anemone": "Poison Anemone",

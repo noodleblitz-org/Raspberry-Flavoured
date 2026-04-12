@@ -1,4 +1,6 @@
 {
+	"quark.camera.filter.enderman": "Exokin-Vision",
+	
 	"quark.gui.keygroup.emote": "Emotes",
 	
 	"tag.item.quark.runes_lootable": "Colored Runes",
@@ -94,6 +96,7 @@
 	"block.quark.monster_box": "Unstable Spawner",
 	"block.quark.grate": "Floor Grate",
 	"block.quark.ender_watcher": "Exowatcher",
+	"block.quark.myalite_crystal": "Exoporter",
 	"block.quark.charcoal_block": "Block of Charcoal",
 	"block.quark.sugar_cane_block": "Bundle of Sugar Canes",
 	"block.quark.stick_block": "Bundle of Sticks",

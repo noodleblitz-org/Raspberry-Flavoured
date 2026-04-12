@@ -77,7 +77,8 @@
         "architects_palette:unobtanium_block",
         "kubejs:enigmatic_tile_slab",
         "kubejs:enigmatic_tile_stairs",
-        "kubejs:enigmatic_tile_wall"
+        "kubejs:enigmatic_tile_wall",
+        "quark:myalite_crystal"
       ],
       "particle": {
         "type": "minecraft:portal"

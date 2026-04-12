@@ -122,6 +122,18 @@ ServerEvents.recipes(event => {
 	pillar('red_sandstone','kubejs:red_sandstone_pillar')
 	pillar('quark:soul_sandstone','kubejs:soul_sandstone_pillar')
 	
+	// shingles
+	function shingle(inputItem, resultItem) {
+		event.shaped(Item.of(resultItem,6), ['AAA', 'AAA'], {A: inputItem})
+	}
+	shingle('terracotta','quark:shingles')
+	shingle('twigs:packed_silt','twigs:silt_shingles')
+	shingle('sullysmod:polished_jade_block','sullysmod:polished_jade_shingles')
+	shingle('copper_block','create:copper_shingles')
+	shingle('exposed_copper','create:exposed_copper_shingles')
+	shingle('weathered_copper','create:weathered_copper_shingles')
+	shingle('oxidized_copper','create:oxidized_copper_shingles')
+	
 	// bookshelves
 	function bookshelf(inputItem, resultItem) {
 		event.shaped(Item.of(resultItem,3), ['AAA', 'BBB', 'AAA'], {A: inputItem, B: 'book'})
@@ -225,6 +237,7 @@ ServerEvents.recipes(event => {
 	panel('ecologics:azalea','everycomp:mm/ecologics/azalea_pillar','everycomp:mm/ecologics/azalea_board','everycomp:abnww/ecologics/azalea_board')
 	panel('ecologics:coconut','everycomp:mm/ecologics/coconut_pillar','everycomp:mm/ecologics/coconut_board','everycomp:abnww/ecologics/coconut_board')
 	panel('atmospheric:rosewood','everycomp:mm/atmospheric/rosewood_pillar','everycomp:mm/atmospheric/rosewood_board','atmospheric:rosewood_board')
+	panel('atmospheric:grimwood','everycomp:mm/atmospheric/grimwood_pillar','everycomp:mm/atmospheric/grimwood_board','atmospheric:grimwood_board')
 	panel('atmospheric:yucca','everycomp:mm/atmospheric/yucca_pillar','everycomp:mm/atmospheric/yucca_board','atmospheric:yucca_board')
 	panel('atmospheric:morado','everycomp:mm/atmospheric/morado_pillar','everycomp:mm/atmospheric/morado_board','atmospheric:morado_board')
 	panel('environmental:cherry','everycomp:mm/environmental/cherry_pillar','everycomp:mm/environmental/cherry_board','environmental:cherry_board')

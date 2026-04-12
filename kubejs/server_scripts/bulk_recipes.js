@@ -120,4 +120,16 @@ ServerEvents.recipes(event => {
 		let output = recipe.originalRecipeResult.withCount(3)
 		event.shaped(output, ['A A', 'BBB', 'BBB'], {A: 'chain', B: ingredients[3]})
 	})
+	
+	// shutters
+	event.forEachRecipe({
+		type: "minecraft:crafting_shaped",
+		output: "#another_furniture:shutters",
+		not: {input: "#another_furniture:shutters"}
+	}, recipe => {
+		recipe.remove()
+		let ingredients = recipe.originalRecipeIngredients
+		let output = recipe.originalRecipeResult.withCount(6)
+		event.shaped(output, ['AA', 'AA', 'AA'], {A: ingredients[0]})
+	})
 })

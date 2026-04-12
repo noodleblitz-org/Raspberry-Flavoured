@@ -21,62 +21,6 @@ EntityEvents.spawned((event) => {
     entity.mergeNbt(nbt);
 });
 
-// tiered mob equipment
-EntityEvents.spawned(event => {
-    const entity = event.entity
-	// give skeletons weapons
-    if (entity.type === 'minecraft:skeleton') {
-        if (Math.floor(Math.random() * (3 - 1 + 1) + 1) === 1) {
-			if (Math.floor(Math.random() * (2 - 1 + 1) + 1) === 1) {
-				entity.setItemSlot("mainhand", Item.of('wooden_sword'))
-			} else {
-				entity.setItemSlot("mainhand", Item.of('stone_sword'))
-			}
-        } else {
-            entity.setItemSlot("mainhand", Item.of('bow'))
-		}
-    }
-	// give skeletons armour
-    if (entity.type === 'minecraft:skeleton') {
-        if (Math.floor(Math.random() * (8 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("head", Item.of('leather_helmet'))
-        }
-        if (Math.floor(Math.random() * (14 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("chest", Item.of('leather_chestplate'))
-        }
-        if (Math.floor(Math.random() * (12 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("legs", Item.of('leather_leggings'))
-        }
-        if (Math.floor(Math.random() * (10 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("feet", Item.of('leather_boots'))
-        }
-    }
-	
-	// give withered weapons
-    if (entity.type === 'minecraft:wither_skeleton') {
-        if (Math.floor(Math.random() * (6 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("mainhand", Item.of('bow'))
-        } else {
-            entity.setItemSlot("mainhand", Item.of('iron_sword'))
-		}
-    }
-	// give withered armour
-    if (entity.type === 'minecraft:wither_skeleton') {
-        if (Math.floor(Math.random() * (10 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("head", Item.of('alloyed:steel_helmet'))
-        }
-        if (Math.floor(Math.random() * (16 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("chest", Item.of('alloyed:steel_chestplate'))
-        }
-        if (Math.floor(Math.random() * (13 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("legs", Item.of('alloyed:steel_leggings'))
-        }
-        if (Math.floor(Math.random() * (8 - 1 + 1) + 1) === 1) {
-            entity.setItemSlot("feet", Item.of('alloyed:steel_boots'))
-        }
-    }
-})
-
 // misc. mob equipment
 EntityEvents.spawned(event => {
     const entity = event.entity
@@ -257,5 +201,34 @@ EntityEvents.death(event => {
 			itemEntity.motionX = 0.075
 			itemEntity.spawn()
         }
+	}
+})
+
+// Necromium healing
+BlockEvents.broken(event => {
+	if (event.player.mainHandItem == 'caverns_and_chasms:necromium_pickaxe' && event.block.hasTag('minecraft:mineable/pickaxe')) {
+		if (Math.floor(Math.random() * (1 - 0 + 1) + 0) == 0) {
+			event.player.heal(1)
+		}
+	}
+	if (event.player.mainHandItem == 'caverns_and_chasms:necromium_shovel' && event.block.hasTag('minecraft:mineable/shovel')) {
+		if (Math.floor(Math.random() * (1 - 0 + 1) + 0) == 0) {
+			event.player.heal(1)
+		}
+	}
+	if (event.player.mainHandItem == 'caverns_and_chasms:necromium_axe' && event.block.hasTag('minecraft:mineable/axe')) {
+		if (Math.floor(Math.random() * (1 - 0 + 1) + 0) == 0) {
+			event.player.heal(1)
+		}
+	}
+	if (event.player.mainHandItem == 'caverns_and_chasms:necromium_hoe' && event.block.hasTag('minecraft:mineable/hoe')) {
+		if (Math.floor(Math.random() * (1 - 0 + 1) + 0) == 0) {
+			event.player.heal(1)
+		}
+	}
+	if (event.player.mainHandItem == 'abnormals_delight:necromium_knife' && event.block.hasTag('farmersdelight:mineable/knife')) {
+		if (Math.floor(Math.random() * (1 - 0 + 1) + 0) == 0) {
+			event.player.heal(1)
+		}
 	}
 })

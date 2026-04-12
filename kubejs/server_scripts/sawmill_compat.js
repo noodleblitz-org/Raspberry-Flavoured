@@ -37,7 +37,7 @@ let outputTypes = [
   //this bit's nice. no conficts here!
   ["log",1,"WOOD_drawer",["another_furniture:","everycomp:af/MOD/"]],
   ["log",2,"WOOD_table",["another_furniture:","everycomp:af/MOD/"]],
-  ["log",4,"WOOD_shutter",["another_furniture:","everycomp:af/MOD/"]],
+  ["log",8,"WOOD_shutter",["another_furniture:","everycomp:af/MOD/"]],
   ["log",4,"WOOD_shelf",["another_furniture:","everycomp:af/MOD/"]],
   ["log",4,"WOOD_chair",["another_furniture:","everycomp:af/MOD/"]],
   ["log",2,"WOOD_bench",["another_furniture:","everycomp:af/MOD/"]]
@@ -58,7 +58,7 @@ for(let recipe of outputTypes){
 }
 
 //uses this format for compatability with /kjs inventory. just fill your inventory up with planks and run the command to get a new thing to paste here.
-let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks', 'atmospheric:yucca_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
+let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks', 'atmospheric:grimwood_planks', 'atmospheric:yucca_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
 
 woodtypes = woodtypes.map(i=>{
   let [mod,plankId] = i.split(":")
@@ -93,6 +93,8 @@ ServerEvents.recipes(e=>{
   addSawmill(Ingredient.of("#minecraft:planks"),2,Item.of("minecraft:stick"))
   addSawmill(Ingredient.of("#minecraft:logs"),4,Item.of("minecraft:bowl"))
   addSawmill(Ingredient.of("#minecraft:planks"),1,Item.of("minecraft:bowl"))
+  addSawmill(Ingredient.of("#minecraft:logs"),4,Item.of("supplementaries:flower_box"))
+  addSawmill(Ingredient.of("#minecraft:planks"),1,Item.of("supplementaries:flower_box"))
   
   // oak ladders separately bc they don't have "oak" in their id
   addSawmill(Ingredient.of("#minecraft:oak_logs"),4,Item.of("minecraft:ladder"))

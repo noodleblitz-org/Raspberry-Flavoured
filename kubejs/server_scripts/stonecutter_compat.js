@@ -1,17 +1,6 @@
 // priority: 0
 
 ServerEvents.recipes(event => {
-// Remove existing recipes
-    const removedRecipes = [
-	'#create:stone_types/deepslate',
-	'#create:stone_types/granite',
-	'#create:stone_types/diorite',
-	'#create:stone_types/andesite',
-	'#create:stone_types/calcite',
-	'#create:stone_types/tuff',
-	'#create:stone_types/dripstone'
-	]
-	
     const blockTags = [
 	'#raspberry_flavoured:stone',
 	'#raspberry_flavoured:deepslate',
@@ -96,13 +85,15 @@ ServerEvents.recipes(event => {
 	'#raspberry_flavoured:crying_obsidian',
 	'#raspberry_flavoured:lachryte',
 	'#raspberry_flavoured:exolite',
-	'#raspberry_flavoured:glowstone'
+	'#raspberry_flavoured:glowstone',
+	'#raspberry_flavoured:asurine',
+	'#raspberry_flavoured:crimsite',
+	'#raspberry_flavoured:limestone',
+	'#raspberry_flavoured:ochrum',
+	'#raspberry_flavoured:scoria',
+	'#raspberry_flavoured:scorchia',
+	'#raspberry_flavoured:veridium'
 	]
-    
-    removedRecipes.forEach(recipe => {
-		event.remove({input: recipe, type: 'minecraft:stonecutting'})
-		event.remove({output: recipe, type: 'minecraft:stonecutting'})
-    })
     
     blockTags.forEach(tag => {
 		event.remove({input: tag, type: 'minecraft:stonecutting'})
@@ -120,18 +111,26 @@ ServerEvents.recipes(event => {
 	
 	// Copycats
 	Ingredient.of('#raspberry_flavoured:copycat').itemIds.forEach(id => {
+		event.remove({input: id, type: 'minecraft:stonecutting'})
+		event.remove({output: id, type: 'minecraft:stonecutting'})
+		event.stonecutting('2x ' + id, '#forge:ingots/zinc')
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat')
     })
 	Ingredient.of('#raspberry_flavoured:copycat_half').itemIds.forEach(id => {
+		event.remove({input: id, type: 'minecraft:stonecutting'})
+		event.remove({output: id, type: 'minecraft:stonecutting'})
+		event.stonecutting('4x ' + id, '#forge:ingots/zinc')
 		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycat')
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_half')
     })
 	Ingredient.of('#raspberry_flavoured:copycat_quarter').itemIds.forEach(id => {
+		event.remove({input: id, type: 'minecraft:stonecutting'})
+		event.remove({output: id, type: 'minecraft:stonecutting'})
+		event.stonecutting('8x ' + id, '#forge:ingots/zinc')
 		event.stonecutting('4x ' + id, '#raspberry_flavoured:copycat')
 		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycat_half')
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_quarter')
     })
-	event.stonecutting('2x copycats:copycat_wall', '#forge:ingots/zinc').id('copycats:stonecutting/copycat_wall')
 	
 	// Sand -> Sandstone
 	Ingredient.of('#raspberry_flavoured:sandstone').itemIds.forEach(id => {

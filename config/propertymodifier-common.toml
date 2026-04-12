@@ -419,6 +419,7 @@
 		"oreganized:electrum_leggings" = "#raspberry_flavoured:electrum_repair_materials"
 		"oreganized:electrum_boots" = "#raspberry_flavoured:electrum_repair_materials"
 		"quark:echorang" = "#raspberry_flavoured:echo_repair_materials"
+		"quark:trowel" = "#raspberry_flavoured:rose_gold_repair_materials"
 		"supplementaries:slingshot" = "#raspberry_flavoured:wood_repair_materials"
 		"supplementaries:flute" = "#raspberry_flavoured:bamboo_repair_materials"
 		"supplementaries:wrench" = "#raspberry_flavoured:copper_repair_materials"
@@ -576,6 +577,8 @@
 			"kubejs:rose_gold_rapier" = 3
 			"kubejs:crowbar" = 3
 			"oreganized:silver_mirror" = 0.5
+			"farmersdelight:ham" = 3
+			"farmersdelight:smoked_ham" = 4
 			"minecraft:wooden_pickaxe" = 2
 			"minecraft:wooden_shovel" = 2.5
 			"minecraft:wooden_hoe" = 3
@@ -655,11 +658,11 @@
 			"minecraft:iron_axe" = 6.5
 			"minecraft:iron_hoe" = 6.5
 			"farmersdelight:iron_knife" = 6.5
-			"alloyed:steel_pickaxe" = 5.0
-			"alloyed:steel_axe" = 5.0
-			"alloyed:steel_shovel" = 5.0
-			"alloyed:steel_hoe" = 5.0
-			"alloyed:steel_knife" = 5.0
+			"alloyed:steel_pickaxe" = 6.5
+			"alloyed:steel_axe" = 6.5
+			"alloyed:steel_shovel" = 6.5
+			"alloyed:steel_hoe" = 6.5
+			"alloyed:steel_knife" = 6.5
 			"minecraft:diamond_shovel" = 8.0
 			"minecraft:diamond_pickaxe" = 8.0
 			"minecraft:diamond_axe" = 8.0
@@ -700,6 +703,8 @@
 			"kubejs:rose_gold_rapier" = 2.775
 			"kubejs:crowbar" = 1.6
 			"oreganized:silver_mirror" = 0.8
+			"farmersdelight:ham" = 1
+			"farmersdelight:smoked_ham" = 1
 			"minecraft:wooden_pickaxe" = 1.2
 			"minecraft:wooden_shovel" = 1.1
 			"minecraft:wooden_hoe" = 1
@@ -874,6 +879,37 @@
 		"nethersdelight:propelpearl" = 0.2
 		"architects_palette:twisted_sapling" = 0.7
 		"supplementaries:cake" = 0.8
+		"architects_palette:rotten_flesh_block" = 1
+		"kubejs:oats" = 0.35
+		"aquaculture:algae" = 0.7
+		"minecraft:cod" = 0.7
+		"minecraft:salmon" = 0.7
+		"naturalist:bass" = 0.8
+		"upgrade_aquatic:perch" = 0.7
+		"upgrade_aquatic:pike" = 0.9
+		"aquaculture:blackfish" = 0.7
+		"aquaculture:atlantic_herring" = 0.6
+		"aquaculture:pollock" = 0.7
+		"aquaculture:bayad" = 0.7
+		"aquaculture:boulti" = 0.7
+		"aquaculture:capitaine" = 0.7
+		"aquaculture:synodontis" = 0.7
+		"aquaculture:bluegill" = 0.7
+		"aquaculture:brown_trout" = 0.7
+		"aquaculture:carp" = 0.7
+		"aquaculture:gar" = 0.7
+		"aquaculture:tambaqui" = 0.7
+		"aquaculture:red_grouper" = 0.7
+		"aquaculture:tuna" = 0.8
+		"aquaculture:pink_salmon" = 0.7
+		"aquaculture:minnow" = 0.6
+		"environmental:koi" = 0.8
+		"minecraft:tropical_fish" = 0.8
+		"minecraft:pufferfish" = 0.9
+		"upgrade_aquatic:lionfish" = 0.9
+		"sullysmod:lanternfish" = 0.8
+		"miners_delight:squid" = 1
+		"miners_delight:glow_squid" = 1
 
 #Set the values for axe stripping.
 [stripping]

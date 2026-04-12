@@ -340,7 +340,7 @@
 	"Seed Pouch" = false
 	Pickarang = true
 	"Pathfinder Maps" = true
-	"Parrot Eggs" = false
+	"Parrot Eggs" = true
 	"Endermosh Music Disc" = false
 	"Color Runes" = true
 	"Bundle Recipe" = true
@@ -354,10 +354,10 @@
 		#Amount of blocks placed is this value + 1.
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
-		"Trowel Max Durability" = 0
+		"Trowel Max Durability" = 1600
 
 	[tools.torch_arrow]
-		"Extinguish On Miss" = false
+		"Extinguish On Miss" = true
 
 	[tools.skull_pikes]
 		"Pike Range" = 5.0
@@ -448,7 +448,7 @@
 		#
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF
-		Customs = ["minecraft:ice_spikes,2,8,14,7FE4FF"]
+		Customs = ["minecraft:ice_spikes,2,8,14,7FE4FF", "minecraft:old_growth_birch_forest,2,8,14,B6E069", "environmental:blossom_woods,2,8,14,FF829A", "atmospheric:rainforest,2,8,14,340071", "atmospheric:flourishing_dunes,2,8,14,F0984E", "windswept:chestnut_forest,2,8,14,614634", "quark:glimmering_weald,2,8,14,7EDDBE", "kubejs:tropical_beach,2,8,14,EABB2C"]
 		"Search Radius" = 6400
 		"Xp From Trade" = 5
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
@@ -468,9 +468,9 @@
 
 	[tools.parrot_eggs]
 		#The chance feeding a parrot will produce an egg
-		Chance = 0.05
+		Chance = 0.25
 		#How long it takes to create an egg
-		"Egg Time" = 12000
+		"Egg Time" = 6000
 		"Enable Special Awesome Parrot" = false
 
 	[tools.endermosh_music_disc]
@@ -534,7 +534,7 @@
 [tweaks]
 	"Zombie Villagers On Normal" = true
 	"Villagers Follow Emeralds" = true
-	"Vexes Die With Their Masters" = true
+	"Vexes Die With Their Masters" = false
 	"Utility Recipes" = true
 	"Sponge On Water Placement" = true
 	"Snow Golem Player Heads" = true
@@ -704,7 +704,7 @@
 		"Italic Tooltip" = true
 		"Display Baked Enchantments In Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = ["minecraft:trident+loyalty@2", "minecraft:trident+power@1", "minecraft:crossbow+power@2", "farmersdelight:golden_knife+looting@1", "minecraft:golden_axe+looting@1", "minecraft:leather_helmet+feather_falling@1", "minecraft:leather_chestplate+feather_falling@2", "minecraft:leather_leggings+feather_falling@3", "minecraft:leather_boots+feather_falling@4", "minecraft:turtle_helmet+aqua_affinity@1", "minecraft:golden_helmet+fire_protection@1", "minecraft:golden_chestplate+fire_protection@2", "minecraft:golden_leggings+fire_protection@2", "minecraft:golden_boots+fire_protection@1", "minecraft:chainmail_helmet+thorns@1", "minecraft:chainmail_chestplate+thorns@1", "minecraft:chainmail_leggings+thorns@1", "minecraft:chainmail_boots+thorns@1", "minecraft:diamond_helmet+projectile_protection@2", "minecraft:diamond_chestplate+projectile_protection@3", "minecraft:diamond_leggings+projectile_protection@3", "minecraft:diamond_boots+projectile_protection@2", "additionaladditions:rose_gold_sword+silk_touch@1", "additionaladditions:rose_gold_shovel+silk_touch@1", "additionaladditions:rose_gold_pickaxe+silk_touch@1", "additionaladditions:rose_gold_axe+silk_touch@1", "additionaladditions:rose_gold_hoe+silk_touch@1", "kubejs:rose_gold_knife+silk_touch@1", "minecraft:netherite_helmet+fire_protection@3", "minecraft:netherite_chestplate+fire_protection@4", "minecraft:netherite_leggings+fire_protection@4", "minecraft:netherite_boots+fire_protection@3", "minecraft:netherite_pickaxe+fire_aspect@1", "minecraft:netherite_pickaxe+miningmaster:smelting@1", "minecraft:netherite_shovel+fire_aspect@1", "minecraft:netherite_shovel+miningmaster:smelting@1", "minecraft:netherite_hoe+fire_aspect@1", "minecraft:netherite_hoe+miningmaster:smelting@1", "minecraft:netherite_axe+fire_aspect@2", "minecraft:netherite_axe+miningmaster:smelting@1", "minecraft:netherite_sword+fire_aspect@2", "minecraft:netherite_sword+miningmaster:smelting@1", "farmersdelight:netherite_knife+fire_aspect@2", "farmersdelight:netherite_knife+miningmaster:smelting@1", "clash:swept_axe+fire_aspect@2", "clash:swept_axe+miningmaster:smelting@1", "clash:swept_axe+clash:rampage@3", "clash:swept_axe+clash:retaliation@4", "clash:spear+clash:agility@1", "oreganized:silver_mirror+smite@5", "kubejs:rose_gold_rapier+kubejs:rose_lifesteal@1", "kubejs:electrum_horse_armor+allurement:obedience@1", "kubejs:necromium_horse_armor+allurement:obedience@1", "kubejs:netherite_horse_armor+allurement:obedience@1", "clash:greatblade+clash:whirling@1", "mace_backport:mace+mace_backport:wind_burst@1"]
+		"Baked Enchantments" = ["minecraft:trident+loyalty@2", "minecraft:trident+power@1", "minecraft:crossbow+power@2", "farmersdelight:golden_knife+looting@1", "minecraft:golden_axe+looting@1", "minecraft:leather_helmet+feather_falling@1", "minecraft:leather_chestplate+feather_falling@2", "minecraft:leather_leggings+feather_falling@3", "minecraft:leather_boots+feather_falling@4", "minecraft:turtle_helmet+aqua_affinity@1", "minecraft:golden_helmet+fire_protection@1", "minecraft:golden_chestplate+fire_protection@2", "minecraft:golden_leggings+fire_protection@2", "minecraft:golden_boots+fire_protection@1", "minecraft:chainmail_helmet+thorns@1", "minecraft:chainmail_chestplate+thorns@1", "minecraft:chainmail_leggings+thorns@1", "minecraft:chainmail_boots+thorns@1", "minecraft:diamond_helmet+projectile_protection@2", "minecraft:diamond_chestplate+projectile_protection@3", "minecraft:diamond_leggings+projectile_protection@3", "minecraft:diamond_boots+projectile_protection@2", "additionaladditions:rose_gold_shovel+silk_touch@1", "additionaladditions:rose_gold_pickaxe+silk_touch@1", "additionaladditions:rose_gold_axe+silk_touch@1", "additionaladditions:rose_gold_hoe+silk_touch@1", "kubejs:rose_gold_knife+silk_touch@1", "minecraft:netherite_helmet+fire_protection@3", "minecraft:netherite_chestplate+fire_protection@4", "minecraft:netherite_leggings+fire_protection@4", "minecraft:netherite_boots+fire_protection@3", "minecraft:netherite_pickaxe+fire_aspect@1", "minecraft:netherite_pickaxe+miningmaster:smelting@1", "minecraft:netherite_shovel+fire_aspect@1", "minecraft:netherite_shovel+miningmaster:smelting@1", "minecraft:netherite_hoe+fire_aspect@1", "minecraft:netherite_hoe+miningmaster:smelting@1", "minecraft:netherite_axe+fire_aspect@2", "minecraft:netherite_axe+miningmaster:smelting@1", "minecraft:netherite_sword+fire_aspect@2", "farmersdelight:netherite_knife+fire_aspect@2", "farmersdelight:netherite_knife+miningmaster:smelting@1", "clash:swept_axe+fire_aspect@2", "clash:swept_axe+miningmaster:smelting@1", "clash:swept_axe+clash:rampage@3", "clash:swept_axe+clash:retaliation@4", "clash:spear+clash:agility@1", "oreganized:silver_mirror+smite@5", "kubejs:rose_gold_rapier+kubejs:rose_lifesteal@1", "kubejs:electrum_horse_armor+allurement:obedience@1", "kubejs:necromium_horse_armor+allurement:obedience@1", "kubejs:netherite_horse_armor+allurement:obedience@1", "clash:greatblade+clash:whirling@1", "mace_backport:mace+mace_backport:wind_burst@1"]
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -783,7 +783,7 @@
 		"Ignore Anti Overlap" = false
 
 [world]
-	"Spiral Spires" = false
+	"Spiral Spires" = true
 	Permafrost = false
 	"No More Lava Pockets" = true
 	"New Stone Types" = false
@@ -804,7 +804,7 @@
 		"Enable Myalite Viaducts" = true
 		#Allowed values: [2,1,024]
 		"Myalite Conduit Distance" = 24
-		"Renewable Myalite" = true
+		"Renewable Myalite" = false
 
 		[world.spiral_spires.dimensions]
 			"Is Blacklist" = false

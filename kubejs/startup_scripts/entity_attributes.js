@@ -69,6 +69,9 @@ EntityJSEvents.attributes(event => {
     event.modify('minecraft:witch', attribute => {
         attribute.add("minecraft:generic.max_health", 30)
     })
+    event.modify('minecraft:evoker', attribute => {
+        attribute.add("minecraft:generic.max_health", 40)
+    })
     event.modify('minecraft:wither', attribute => {
         attribute.add("minecraft:generic.max_health", 500)
     })
@@ -132,9 +135,23 @@ EntityJSEvents.attributes(event => {
         attribute.add("forge:step_height_addition", 0.45)
     })
 	
-	// Buff witches
+	// Buff witches & raisers
     event.modify('minecraft:witch', attribute => {
         attribute.add("minecraft:generic.armor", 6)
+    })
+    event.modify('minecraft:evoker', attribute => {
+        attribute.add("minecraft:generic.armor", 9)
+    })
+	
+	// Nerf thrashers
+    event.modify('upgrade_aquatic:thrasher', attribute => {
+        attribute.add("minecraft:generic.attack_damage", 3)
+        attribute.add("minecraft:generic.max_health", 35)
+        attribute.add("minecraft:generic.armor", 4)
+    })
+    event.modify('upgrade_aquatic:great_thrasher', attribute => {
+        attribute.add("minecraft:generic.attack_damage", 4)
+        attribute.add("minecraft:generic.armor", 8)
     })
 })
 
@@ -159,5 +176,9 @@ EntityJSEvents.modifyEntity(event => {
 	})
 	event.modify('naturalist:snake', modifier => {
 		modifier.mobType('arthropod')
+	})
+	
+	event.modify('minecraft:evoker', modifier => {
+		modifier.mobType('undead')
 	})
 })

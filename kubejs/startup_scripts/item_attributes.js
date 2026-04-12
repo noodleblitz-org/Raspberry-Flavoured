@@ -76,6 +76,9 @@ const bowDamage = new $AttributeModifier("5884dd70-b738-4c36-a94b-83de8546e2a8",
 const crossbowDamage = new $AttributeModifier("5627f77e-4775-4b0c-9f74-aaa02f190040", "kubejs:ranged_damage", 11, "ADDITION")
 const tridentDamage = new $AttributeModifier("75d47485-6c07-464e-b294-1bf18bef6dd1", "kubejs:ranged_damage", 20, "ADDITION")
 const kunaiDamage = new $AttributeModifier("a9737969-401e-41cd-94c8-2a5834cf6713", "kubejs:ranged_damage", 3, "ADDITION")
+const roseGoldSilkTouch = new $AttributeModifier("7a7c2de5-d189-4304-b4d4-22809e6d8604", "kubejs:silk_touch", 1, "ADDITION")
+const necromiumDrainingTouch = new $AttributeModifier("ca0385ca-4dad-450e-b95c-05a59f9d2630", "kubejs:draining_touch", 1, "ADDITION")
+const netheriteHeatTouch = new $AttributeModifier("811a7e54-d773-4d27-aa28-e65e63340af2", "kubejs:heat_touch", 1, "ADDITION")
 
 ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (event) => {
 // Electrum armour stats
@@ -170,18 +173,23 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 	}
 	if (event.itemStack.id == "caverns_and_chasms:necromium_axe" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:slowness_infliction", necromiumSlowness2)
+		event.addModifier("kubejs:draining_touch", necromiumDrainingTouch)
 	}
 	if (event.itemStack.id == "caverns_and_chasms:necromium_pickaxe" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:slowness_infliction", necromiumSlowness1)
+		event.addModifier("kubejs:draining_touch", necromiumDrainingTouch)
 	}
 	if (event.itemStack.id == "caverns_and_chasms:necromium_shovel" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:slowness_infliction", necromiumSlowness1)
+		event.addModifier("kubejs:draining_touch", necromiumDrainingTouch)
 	}
 	if (event.itemStack.id == "caverns_and_chasms:necromium_hoe" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:slowness_infliction", necromiumSlowness1)
+		event.addModifier("kubejs:draining_touch", necromiumDrainingTouch)
 	}
 	if (event.itemStack.id == "abnormals_delight:necromium_knife" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:slowness_infliction", necromiumSlowness1)
+		event.addModifier("kubejs:draining_touch", necromiumDrainingTouch)
 	}
 
 // Rose gold magic
@@ -190,18 +198,23 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 	}
 	if (event.itemStack.id == "additionaladditions:rose_gold_axe" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:magic_damage", roseGoldAxe)
+		event.addModifier("kubejs:silk_touch", roseGoldSilkTouch)
 	}
 	if (event.itemStack.id == "additionaladditions:rose_gold_hoe" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:magic_damage", roseGoldHoe)
+		event.addModifier("kubejs:silk_touch", roseGoldSilkTouch)
 	}
 	if (event.itemStack.id == "additionaladditions:rose_gold_shovel" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:magic_damage", roseGoldShovel)
+		event.addModifier("kubejs:silk_touch", roseGoldSilkTouch)
 	}
 	if (event.itemStack.id == "additionaladditions:rose_gold_pickaxe" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:magic_damage", roseGoldPickaxe)
+		event.addModifier("kubejs:silk_touch", roseGoldSilkTouch)
 	}
 	if (event.itemStack.id == "kubejs:rose_gold_knife" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:magic_damage", roseGoldKnife)
+		event.addModifier("kubejs:silk_touch", roseGoldSilkTouch)
 	}
 	if (event.itemStack.id == "kubejs:rose_gold_rapier" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:magic_damage", roseGoldRapier)
@@ -310,18 +323,23 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 	}
 	if (event.itemStack.id == "minecraft:netherite_pickaxe" && event.slotType == "mainhand") {
 		event.addModifier("kubejs:fire_aspect", netheriteFireAspect1)
+		event.addModifier("kubejs:heat_touch", netheriteHeatTouch)
 	}
 	if (event.itemStack.id == "minecraft:netherite_axe" && event.slotType == "mainhand") {
 		event.addModifier("kubejs:fire_aspect", netheriteFireAspect2)
+		event.addModifier("kubejs:heat_touch", netheriteHeatTouch)
 	}
 	if (event.itemStack.id == "minecraft:netherite_shovel" && event.slotType == "mainhand") {
 		event.addModifier("kubejs:fire_aspect", netheriteFireAspect1)
+		event.addModifier("kubejs:heat_touch", netheriteHeatTouch)
 	}
 	if (event.itemStack.id == "minecraft:netherite_hoe" && event.slotType == "mainhand") {
 		event.addModifier("kubejs:fire_aspect", netheriteFireAspect1)
+		event.addModifier("kubejs:heat_touch", netheriteHeatTouch)
 	}
 	if (event.itemStack.id == "farmersdelight:netherite_knife" && event.slotType == "mainhand") {
 		event.addModifier("kubejs:fire_aspect", netheriteFireAspect2)
+		event.addModifier("kubejs:heat_touch", netheriteHeatTouch)
 	}
 	if (event.itemStack.id == "clash:swept_axe" && event.slotType == "mainhand") {
 		event.addModifier("kubejs:fire_aspect", netheriteFireAspect2)
@@ -473,10 +491,20 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 	if (event.itemStack.id == "minecraft:trident" && event.slotType == "mainhand") {
 		event.addModifier("forge:attack_range", specialRange)
 	}
-	
-// Remove drawer key stuff
-	if (event.itemStack.id == "storagedrawers:drawer_key" && event.slotType == "mainhand") {
-		event.removeAttribute("minecraft:generic.attack_damage")
-		event.removeAttribute("minecraft:generic.attack_speed")
+
+	// Cavalier mount speed
+	if (event.itemStack.isEnchanted()) {
+		if (event.itemStack.getEnchantmentLevel('ensorcellation:cavalier') > 0 && event.slotType == "mainhand") {
+			let cavalierSpeed = new $AttributeModifier("ab4111bb-f64f-4659-ae51-3b3a14bfa2c4", "puffish_attributes:mount_speed", event.itemStack.getEnchantmentLevel('ensorcellation:cavalier') * 0.05, "ADDITION")
+			event.addModifier("puffish_attributes:mount_speed", cavalierSpeed)
+		}
+	}
+
+	// Smite tooltip
+	if (event.itemStack.isEnchanted()) {
+		if (event.itemStack.getEnchantmentLevel('minecraft:smite') > 0 && event.slotType == "mainhand") {
+			let smiteTooltip = new $AttributeModifier("01e67c19-0869-4f4b-bab1-c7903b06da2f", "kubejs:smite", event.itemStack.getEnchantmentLevel('minecraft:smite') * 2.5, "ADDITION")
+			event.addModifier("kubejs:smite", smiteTooltip)
+		}
 	}
 })

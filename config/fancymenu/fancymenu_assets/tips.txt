@@ -13,7 +13,7 @@ Crushing Cinnabar yields Redstone Dust.
 Cooking Pots make meals and drinks that grant helpful effects.
 Ovens cook meals and pastries that grant helpful effects.
 Blaze Burners with Cooking Guides can cook automatically.
-There are no Stone tools in RF - only Copper tools.
+There are no Stone tools - only Copper tools.
 Chainmail armor, Horse armor, Saddles and Name Tags are craftable in RF.
 Creeper Spores spawn a horde of friendly Creepies when thrown.
 Creepers won't damage terrain, but they will spawn Creepies.
@@ -23,8 +23,8 @@ Lachryte Tears can be melted down into Liquefied Lachryte.
 Liquefied Lachryte is required to create a Nether Portal.
 Upon death, a totem will appear at your death point which holds your items.
 Discs can be smashed into fragments, which can be crafted into other discs.
-Diving gear and Backtanks will let you traverse underwater more easily.
-Dunes are lush deserts with Yucca trees and various other flora.
+A Diving Helmet and Backtanks will let you traverse underwater more easily.
+Dunes are lush, two-toned deserts with Yucca trees and various other flora.
 Leather armor protects against fall damage.
 Chainmail armor damages attackers.
 Copper armor has a unique effect when struck by lightning.
@@ -41,7 +41,7 @@ Electrum tools dig very quickly and deal extra damage when sprinting.
 Electrum armor grants a movement speed boost.
 Netherite tools light targets on fire & auto-smelt blocks.
 Netherite armor protects against fire and getting knocked back.
-Necromium tools slow down targets.
+Necromium tools restore health when mining blocks & slow down targets.
 Necromium armor weakens attackers.
 Various enchantments you may be used to no longer exist in RF.
 Etching Tables allow you to make your own music discs.
@@ -147,14 +147,16 @@ Pressing Shift + T while hovering over an item will share it in chat.
 Feeding a Golden Carrot to a Pig will make it find Truffles.
 Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find Worms.
 Worms shorten the time it takes to catch a fish.
-Spider Eyes shorten the time it takes to catch a fish.
+Spider Legs shorten the time it takes to catch a fish.
+Minnows decently shorten the time it takes to catch a fish.
 Fireflies decently shorten the time it takes to catch a fish.
 Caterpillars significantly shorten the time it takes to catch a fish.
+Golden Worms significantly shorten the time it takes to catch a fish.
 Tackle Boxes can customise Reinforced Fishing Rods.
 Different Hooks have a different impact on the fishing experience.
+Grappling Hooks will make Reinforced Fishing Rods act like grapnels.
 Holding a Bucket of Water in the off-hand will make caught fish go in it.
 Copper and Gold can be hammered into Sheets, with a chance of breaking.
-Fortresses have received reinforcements and a refreshed layout.
 Copper Golems are created with a Carved Pumpkin and a Lightning Rod.
 Tuff Golems are created with a Carved Pumpkin, any Wool and a Tuff block.
 Crops can be harvested by right-clicking them.

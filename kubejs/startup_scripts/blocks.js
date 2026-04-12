@@ -100,13 +100,17 @@ StartupEvents.registry('block', event => {
 	event.create('soul_sandstone_tile_stairs', 'stairs').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
 	event.create('soul_sandstone_tile_wall', 'wall').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
 	
-	event.create('cracked_sandstone_bricks').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
-	event.create('cracked_red_sandstone_bricks').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
-	event.create('cracked_soul_sandstone_bricks').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('cracked_sandstone').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('cracked_red_sandstone').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('cracked_soul_sandstone').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
 	
 	event.create('cracked_layered_sandstone').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
 	event.create('cracked_layered_red_sandstone').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
 	event.create('cracked_layered_soul_sandstone').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
+	
+	event.create('cracked_sandstone_bricks').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('cracked_red_sandstone_bricks').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
+	event.create('cracked_soul_sandstone_bricks').soundType('stone').hardness(0.8).resistance(0.8).requiresTool(true).item(item => {item.group('building_blocks')})
 	
 	event.create('sandstone_pillar').item(item => {item.group('building_blocks')})
     .soundType('stone')
