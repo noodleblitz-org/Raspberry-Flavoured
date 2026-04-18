@@ -1035,6 +1035,8 @@ ServerEvents.tags('item', event => {
 		.add('upgrade_aquatic:driftwood')
 		.add('autumnity:maple_log')
 		.add('autumnity:maple_wood')
+		.add('atmospheric:grimwood_log')
+		.add('atmospheric:grimwood')
 		.add('atmospheric:morado_log')
 		.add('atmospheric:morado_wood')
 		.add('minecraft:crimson_stem')

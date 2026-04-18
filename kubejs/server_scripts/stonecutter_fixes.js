@@ -3,7 +3,7 @@
 // the only way I found to remove them was to comment out every stonecutting recipe added by the panel function in sawmill_compat.js, but i'm trying not to touch other scripts rn
 ServerEvents.recipes(event => {
 	// retrieve wood types
-	let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 			'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 			'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 			'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks','atmospheric:yucca_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
+	let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks', 'atmospheric:yucca_planks', 'atmospheric:grimwood_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
 	
 	woodtypes = woodtypes.map(i=>{
   		let [mod,plankId] = i.split(":")
@@ -160,9 +160,14 @@ ServerEvents.recipes(event => {
 	'#raspberry_flavoured:lachryte',
 	'#raspberry_flavoured:exolite',
 	'#raspberry_flavoured:glowstone',
-
-	// new tags start here
 	'#raspberry_flavoured:entwine',
+	'#raspberry_flavoured:asurine',
+	'#raspberry_flavoured:crimsite',
+	'#raspberry_flavoured:limestone',
+	'#raspberry_flavoured:ochrum',
+	'#raspberry_flavoured:scoria',
+	'#raspberry_flavoured:scorchia',
+	'#raspberry_flavoured:veridium',
 	'#raspberry_flavoured:esoterrack',
 	'#raspberry_flavoured:silt',
 	'#raspberry_flavoured:white_silt',
@@ -204,6 +209,7 @@ ServerEvents.recipes(event => {
 	'#raspberry_flavoured:elder_prismarine_coralstone',
 	'#raspberry_flavoured:dead_coralstone',
 	'#raspberry_flavoured:snail_shell',
+	'#raspberry_flavoured:dirt',
 	'#raspberry_flavoured:ice',
 	'#raspberry_flavoured:chocolate',
 	'#raspberry_flavoured:snow',
@@ -245,20 +251,20 @@ ServerEvents.recipes(event => {
    	removedRecipes.forEach(recipe => {
 		event.remove({input: recipe, type: 'minecraft:stonecutting'})
 		event.remove({output: recipe, type: 'minecraft:stonecutting'})
-    	})
+    })
     
-    	blockTags.forEach(tag => {
+    blockTags.forEach(tag => {
 		event.remove({input: tag, type: 'minecraft:stonecutting'})
 		event.remove({output: tag, type: 'minecraft:stonecutting'})
 		event.remove({input: tag + '_half', type: 'minecraft:stonecutting'})
 		event.remove({output: tag + '_half', type: 'minecraft:stonecutting'})
 		Ingredient.of(tag).itemIds.forEach(id => {
-			event.remove({input: id, output: '#minecraft:walls', type: 'minecraft:stonecutting'}) // 
+			event.remove({input: id, output: '#minecraft:walls', type: 'minecraft:stonecutting'}) 
 			event.stonecutting('1x ' + id, tag)
 		})
 		Ingredient.of(tag + '_half').itemIds.forEach(id => {
 			event.stonecutting('2x ' + id, tag)
 			event.stonecutting('1x ' + id, tag + '_half')
 		})
-    	})	
+    })	
 })

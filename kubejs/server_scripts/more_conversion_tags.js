@@ -61,7 +61,8 @@ ServerEvents.tags('item', event => {
 		['wardstone', ['BLOCK', 'BLOCK_brick'], 'architects_palette:'],
 		['abyssaline', ['BLOCK', 'BLOCK_brick', 'BLOCK_tile'], 'architects_palette:'],
 		['snail_shell', ['BLOCK_brick', 'BLOCK_tile'], 'autumnity:'],
-		['ice', 'BLOCK', 'minecraft'], ['ice', 'BLOCK_brick', 'ecologics:'],
+		['ice', 'BLOCK', 'minecraft:'], ['ice', 'BLOCK_brick', 'ecologics:'],
+		['dirt', 'BLOCK', 'minecraft:'], ['dirt', 'BLOCK_bricks', 'quark:'],
 		['packed_ice', ['BLOCK'], 'minecraft:'], ['packed_ice', 'BLOCK_brick', 'windswept:'], ['packed_ice', ['BLOCK', 'polished_BLOCK'], 'architects_palette:'],
 		['blue_ice', ['BLOCK'], 'minecraft:'], ['blue_ice', 'BLOCK_brick', 'windswept:'],
 		['chocolate', 'BLOCK_bricks', 'create_confectionary:'], ['chocolate', ['BLOCK_brick', 'BLOCK_tile'], 'neapolitan:'],
@@ -156,7 +157,7 @@ ServerEvents.tags('item', event => {
   		if(typeof recipe[1] == "string") recipe[1] = [recipe[1]]
 	}
 
-	let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 	'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 	'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 	'atmospheric:rosewood_planks', 'atmospheric:morado_planks','atmospheric:yucca_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
+	let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 	'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 	'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks','atmospheric:yucca_planks', 'atmospheric:grimwood_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
 
 	woodtypes = woodtypes.map(i=>{
   		let [mod,plankId] = i.split(":")

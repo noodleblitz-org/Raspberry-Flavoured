@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'kubejs:flinging_tablet'}})
 	// Glacial
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [
-	{item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}
+	{item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}, {item: 'minecraft:blue_ice'}
 	], result: {item: 'kubejs:glacial_tablet'}})
 	// Hallowed
 	event.custom({type: 'modestmagic:infusing', base: {item: 'kubejs:blank_tablet'}, ingredients: [

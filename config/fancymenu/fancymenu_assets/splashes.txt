@@ -1199,7 +1199,7 @@ A big fat meanie zucchini!
 Strong in the real way!
 I can't deny that I'm a raging lesbian!
 Ash Ketchum is a boy from Pallet Town!
-Sometimes I dream about cheese!
+Sometimes, I dream about cheese!
 I could eat a horse, hooves and all!
 Eating an iron golem!
 The sky isn't real!
@@ -1877,7 +1877,7 @@ A real man never takes accountability!
 &oWe get some rules to follow!
 &oThat and this, these and those!
 &oNo one knows!
-1.20.1 when?
+1.20.1 when? Some day...
 Espio the Chameleon is a character from the Sonic comics!
 Have... you &oever &rhad one?
 This is fine!
@@ -1972,15 +1972,20 @@ Moonwalking bear!
 Alas, my poor Yorick!
 He held his head high through it all!
 Dolphins dressed in monocles!
+Wearing tiny tophats that cover up their blowholes!
 Clouds with faces but they're upside down!
+It looks like their rain is hair!
 Santa Claus going down a chimney!
+The chimney is a cigarette and the house is a man!
 Bowling balls made out of peanut butter!
+They're the bubbles in a big rubber hubba-bubba bubble bath!
 Doctor holding a big bottle of tonic!
+The bottle's full of rings and the doctor is Sonic!
 Jimmy Fallon with a hat on!
 Man full of jelly but the jelly fully of ham!
 Baby with two wheels instead of hands!
-Doctor, doctor - is there something wrong with me?!
-Give it to me straight doc - what do you see?
+Doctor, doctor, is there something wrong with me?!
+Give it to me straight doc, what do you see?
 A bear learning how to water ski!
 A honey bee holding a gun!
 A bunch of clowns beating up a mime!
@@ -1994,6 +1999,13 @@ Squirming chthonic energy!
 Tasty legs and crispy thighs!
 My stupid grub son!
 He ate our son!
+I must say, you sex a good Kevin!
+noooooooooooooooooo
+hwaaaaaaaaaaaaaaaaa
+&oI can't make you hang around!
+&oI can't wash you off my skin!
+&oIt's so safe to play along!
+&oI want something good to die for!
 Justice for seagulls!
 Justice for crabs!
 Justice for tuff golems!
@@ -2034,7 +2046,7 @@ Has &lImmersive Overlays!
 Has &lItem Obliterator!
 Has &lKubeJS!
 Has &lKubeJS Delight!
-Has &lMap Atlases!
+Has &lModest Magic!
 Has &lModest Mining!
 Has &lMouse Tweaks!
 Has &lMy Nether's Delight!
@@ -2049,9 +2061,11 @@ Has &lPolytone!
 Has &lProperty Modifier!
 Has &lQuark!
 Has &lRaspberry Core!
+Has &lReliable Backpacks!
 Has &lSavage & Ravage!
 Has &lSpelunkery!
 Has &lSupplementaries!
+Has &lTreeliable!
 Has &lTwigs!
 Has &lUpgrade Aquatic!
 Has &lWindswept!
@@ -2072,6 +2086,7 @@ Also try &lBalatro!
 Also try &lBetter than Adventure!
 Also try &lBig's Big Fishing Derby!
 Also try &lBloons TD 6!
+Also try &lBrass Age!
 Also try &lCave Story!
 Also try &lChibi-Robo: Zip-Lash!
 Also try &lClutter No More!
@@ -2105,6 +2120,11 @@ Also try &lGrimbly Schmeggle 12: Spectra Scramble!
 Also try &lGrimbly Schmeggle 13: The Unluckiest Number!
 Also try &lGrimbly Schmeggle 14: Artemis Strikes Back!
 Also try &lGrimbly Schmeggle 15: Dawn of Delilah!
+Also try &lGrimbly Schmeggle 16: Eight Times Two!
+Also try &lGrimbly Schmeggle 17: It's Been How Many Days?!
+Also try &lGrimbly Schmeggle 18: Okay I'm Running Out of Subtitles
+Also try &lGrimbly Schmeggle 19: Penultimate Grimble!
+Also try &lGrimbly Schmeggle 20: Rise of Nexasun!
 Also try &lHades!
 Also try &lHades II!
 Also try &lHytale!
@@ -2142,6 +2162,7 @@ Also try &lShutter Up!
 Also try &lSimply Craftmine!
 Also try &lSimply Infinite!
 Also try &lSlay the Spire!
+Also try &lSlay the Spire II!
 Also try &lSlime Rancher!
 Also try &lSlime Rancher 2!
 Also try &lSonic 1 Forever!
@@ -2171,6 +2192,7 @@ Also try &lThe Stanley Parable: Ultra Deluxe!
 Also try &lTherapy!
 Also try &lThere's Always a Bigger Fish!
 Also try &lToil and Trouble!
+Also try &lTomodachi Life: Living the Dream!
 Also try &lTouching Grass!
 Also try &lUndertale!
 Also try &lUndertale Yellow!
@@ -2186,36 +2208,36 @@ Also try &lWilder Flowers!
 Also try &lWobbledogs!
 Also try &lWorm 64!
 Also try &lYIIK: A Post-Modern RPG!
-Now Tio Flavoured! Mmm, spicy.
 Subscribe to &lraspmary! &r... please?
 Subscribe to &lBaisylia! &r:3
 love you bailey <3
 Shoutout to &lBaisylia! <3
 Shoutout to &lcassiancc!
+Shoutout to &levanbones!
+Shoutout to &lKobber!
 Shoutout to &lDavigJ!
 Shoutout to &lnöelle!
-Shoutout to &lNive!
-Shoutout to &lQinomeD!
-Shoutout to &lCrabbarition!
+Shoutout to &lKayla_the_Bee!
+Shoutout to &lProbablyEkho!
 Shoutout to &lasof!
 Shoutout to &lDerb!
-Shoutout to &lProbablyEkho!
-Shoutout to &lKayla_the_Bee!
-Shoutout to &lChad!
+Shoutout to &lCrabbarition!
+Shoutout to &lQuoraal!
+Shoutout to &lQinomeD!
+Shoutout to &lNive!
+Shoutout to &lChadVAFN!
 Shoutout to &lKiroto!
 Shoutout to &lMehVahdJukaar!
 Shoutout to &lDoltHHaven!
 Shoutout to &lMythrilBagels!
-Shoutout to &lJamiscus!
 Shoutout to &lCW!
-Shoutout to &lKobber!
-Shoutout to &levanbones!
 Shoutout to &lnoodleman!
+Shoutout to &llurkywho!
+Shoutout to &ljaybees!
 Shoutout to &lcrunchylungs!
+Shoutout to &lJamiscus!
 Shoutout to &lbeb!
 Shoutout to &lJameslice!
-Shoutout to &ljaybees!
-Shoutout to &llurkywho!
 Shoutout to &lmintynoura!
 Shoutout to &lSarahIsWeird!
 Shoutout to &lGrom PE!
@@ -2227,12 +2249,12 @@ Shoutout to &ldb3k!
 Shoutout to &lVazkii!
 Shoutout to &lFreshah!
 Shoutout to &lmurao.kun!
+Shoutout to &lsunny_8!
 Shoutout to &lZeera the Zesty!
 Shoutout to &lThe Bottom Dweller!
 Shoutout to &lCosmonautic!
 Shoutout to &lIceMcFall!
 Shoutout to &lWestoro!
-Shoutout to &lsunny_8!
 Shoutout to &lMisty Rio Strider!
 Shoutout to &lBitchfucker Smith!
 Shoutout to &lSlim Jim!
@@ -2245,4 +2267,4 @@ Shoutout to &lSpncr!
 Shoutout to &lThe Sonic Hangout!
 Shoutout to &lthe RF Discord server!
 244 mods!
-This splash has a &l1 &rin &l2167 &rchance of showing up!
+This splash has a &l1 &rin &l2270 &rchance of showing up!
