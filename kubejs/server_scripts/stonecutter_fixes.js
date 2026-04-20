@@ -15,7 +15,9 @@ ServerEvents.recipes(event => {
 		let prefix = '#raspberry_flavoured:' + woodType + '_'
 		
 		Ingredient.of([woodTag, '#raspberry_flavoured:' + woodType]).itemIds.forEach(id => {
-			event.stonecutting('1x ' + id, '#raspberry_flavoured:' + woodType)
+			if (!Item.of(id).hasTag('raspberry_flavoured:regular_logs')) {
+				event.stonecutting('1x ' + id, '#raspberry_flavoured:' + woodType)
+			}
 		})
 
 		let halfTag = prefix + 'half'
@@ -26,12 +28,14 @@ ServerEvents.recipes(event => {
 		let quarterTag = prefix + 'quarter'
 		Ingredient.of([quarterTag, quarterTag + '_output']).itemIds.forEach(id => {
 			event.stonecutting('4x ' + id, woodTag)
+			event.stonecutting('2x ' + id, halfTag)
 			event.stonecutting('1x ' + id, quarterTag)
 		})
 
 		let eighthTag = prefix + 'eighth'
 		Ingredient.of([eighthTag, eighthTag + '_output']).itemIds.forEach(id => {
 			event.stonecutting('8x ' + id, woodTag)
+			event.stonecutting('4x ' + id, halfTag)
 			event.stonecutting('2x ' + id, quarterTag)
 			event.stonecutting('1x ' + id, eighthTag)
 		})
