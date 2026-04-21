@@ -17,6 +17,7 @@ ServerEvents.recipes(event => {
 		let woodIds = Ingredient.of([woodTag, '#raspberry_flavoured:' + woodType]).itemIds
 		let barkedIds = Ingredient.of('#raspberry_flavoured:barked_logs').itemIds
 		
+		// do not add recipes that output unstripped logs/wood
 		outer: for (let id of woodIds) {
 			for (let testId of barkedIds) {
 				if (id == testId)
@@ -52,11 +53,32 @@ ServerEvents.recipes(event => {
 	woodtypes.forEach(([originMod,woodType])=>{
 		let woodTag = `#${originMod}:${woodType}_logs`
 		let logItem = Ingredient.of(woodTag)
-        	if(logItem.itemIds.length == 0){
-          		//wait. CURSE YOU MOJANG. there's also "stems".
-          		woodTag = `#${originMod}:${woodType}_stems`
-        	}
+		let unstrippedLogId = `${originMod}:${woodType}_log`
+		let unstrippedWoodId = `${originMod}:${woodType}_wood`
 		
+
+        if(logItem.itemIds.length == 0){
+          	woodTag = `#${originMod}:${woodType}_stems`
+        }
+
+		if (woodType == 'warped' || woodType == 'crimson'){
+			unstrippedLogId = `${originMod}:${woodType}_stem`;
+			unstrippedWoodId = `${originMod}:${woodType}_hyphae`;
+		}
+
+		if (woodType == 'driftwood' || woodType == 'grimwood' || woodType == 'rosewood'){
+			unstrippedWoodId = `${originMod}:${woodType}`
+		}
+
+		console.log(unstrippedLogId)
+		console.log(unstrippedWoodId)
+		console.log(woodTag)
+		
+		// add one-to-one conversions between unstripped logs and unstripped wood
+		if (woodType != 'bamboo' && woodType != 'powdery'){
+			event.stonecutting('1x ' + unstrippedLogId, unstrippedWoodId)
+			event.stonecutting('1x ' + unstrippedWoodId, unstrippedLogId)
+		}
 		addWoodRecipes(woodType, woodTag)
 	})
 
