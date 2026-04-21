@@ -996,6 +996,10 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:splash_potion')
 		.add('minecraft:lingering_potion')
 
+	event.get('raspberry_flavoured:barked_logs')
+		.add('#raspberry_flavoured:regular_logs')
+		.add('#raspberry_flavoured:cinnamon_logs')
+
 	event.get('raspberry_flavoured:cinnamon_logs')
 		.add('minecraft:jungle_log')
 		.add('minecraft:jungle_wood')

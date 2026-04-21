@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
 		let prefix = '#raspberry_flavoured:' + woodType + '_'
 		
 		Ingredient.of([woodTag, '#raspberry_flavoured:' + woodType]).itemIds.forEach(id => {
-			if (!Item.of(id).hasTag('raspberry_flavoured:regular_logs')) {
+			if (!Item.of(id).hasTag('raspberry_flavoured:barked_logs')) {
 				event.stonecutting('1x ' + id, '#raspberry_flavoured:' + woodType)
 			}
 		})
