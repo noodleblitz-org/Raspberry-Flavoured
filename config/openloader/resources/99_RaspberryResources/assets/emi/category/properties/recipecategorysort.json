@@ -50,50 +50,59 @@
   "minecraft:smithing": {
     "order": 22
   },
-  "raspberry:anvil": {
+  "modestmagic:infusing": {
     "order": 23
   },
-  "create:pressing": {
+  "modestmagic:enchanting": {
     "order": 24
   },
-  "create:packing": {
+  "modestmagic:summoning": {
     "order": 25
   },
-  "create:automatic_packing": {
+  "raspberry:anvil": {
     "order": 26
   },
-  "create:milling": {
+  "create:pressing": {
     "order": 27
   },
-  "create:crushing": {
+  "create:packing": {
     "order": 28
   },
-  "create:mixing": {
+  "create:automatic_packing": {
     "order": 29
   },
-  "create:automatic_shapeless": {
+  "create:milling": {
     "order": 30
   },
-  "create:automatic_brewing": {
+  "create:crushing": {
+    "order": 31
+  },
+  "create:mixing": {
     "order": 32
   },
-  "create:spout_filling": {
+  "create:automatic_shapeless": {
     "order": 33
   },
-  "create:draining": {
+  "create:automatic_brewing": {
     "order": 34
   },
-  "create:fan_smoking": {
+  "create:spout_filling": {
     "order": 35
   },
-  "create:fan_washing": {
+  "create:draining": {
     "order": 36
   },
-  "create:fan_blasting": {
+  "create:fan_smoking": {
     "order": 37
   },
-  "create:fan_haunting": {
+  "create:fan_washing": {
     "order": 38
+  },
+  "create:fan_blasting": {
+    "order": 39
+  },
+  "create:fan_haunting": {
+    "order": 40
   },
   "create:deploying": {
     "order": 41

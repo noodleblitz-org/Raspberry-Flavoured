@@ -3841,5 +3841,7 @@ ServerEvents.recipes(event => {
 	event.remove({type: "create:fan_haunting"})
 	event.remove({type: "sullysmod:grindstone_polishing"})
 	event.remove({type: "farmersdelight:cutting", mod: "aquaculturedelight"})
+	event.remove({type: "modestmagic:enchanting"})
+	event.remove({type: "modestmagic:summoning"})
 	event.remove({mod: "vc_gliders"})
 })

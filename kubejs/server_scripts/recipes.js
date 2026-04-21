@@ -560,7 +560,6 @@ ServerEvents.recipes(event => {
 	event.shaped('domesticationinnovation:deed_of_ownership', [' A ', 'ABA', ' A '], {A: 'paper', B: 'domesticationinnovation:collar_tag'})
 	event.shaped('8x architects_palette:hazard_sign', [' A ', 'AAA'], {A: 'architects_palette:hazard_block'}).id('architects_palette:hazard_sign')
 	event.shaped('supplementaries:wind_vane', [' A ', 'BBB', ' C '], {A: 'copper_ingot', B: 'caverns_and_chasms:copper_bars', C: 'redstone'}).id('supplementaries:wind_vane')
-	event.shaped('shulker_box', ['AAA', 'ABA', 'AAA'], {A: 'scute', B: 'quark:soul_bead'}).id('minecraft:shulker_box')
 	event.shaped('4x quark:bamboo_chest', ['AAA', 'A A', 'AAA'], {A: '#quark:bamboo_logs'}).id('quark:building/crafting/woodsets/bamboo/chest_wood')
 	event.shaped('8x quark:bamboo_post', ['A', 'A', 'A'], {A: 'quark:bamboo_block'}).id('quark:building/crafting/woodsets/bamboo/post')
 	event.shaped('8x quark:stripped_bamboo_post', ['A', 'A', 'A'], {A: 'quark:stripped_bamboo_block'}).id('quark:building/crafting/woodsets/bamboo/stripped_post')
@@ -614,6 +613,7 @@ ServerEvents.recipes(event => {
 	event.shaped('4x nether_brick_fence', ['ABA'], {A: 'nether_bricks', B: 'nether_brick_slab'}).id('minecraft:nether_brick_fence')
 	event.shaped('4x quark:nether_brick_fence_gate', ['BAB'], {A: 'nether_bricks', B: 'nether_brick_slab'}).id('quark:automation/crafting/nether_brick_fence_gate')
 	event.shaped('4x modestmagic:pedestal', ['BBB', ' A ', 'BBB'], {A: '#raspberry_flavoured:stone', B: '#raspberry_flavoured:stone_half'}).id('modestmagic:pedestal')
+	event.shaped('modestmagic:altar', ['CDC', 'BAB', 'BAB'], {A: '#raspberry_flavoured:obsidian', B: '#forge:gems/amethyst', C: '#forge:ingots/gold', D: 'kubejs:cloth_scrap'}).id('modestmagic:altar')
 	event.shaped('reliable_backpacks:backpack', ['AAA', 'BCB', 'AAA'], {A: '#minecraft:leather_cuts', B: '#forge:ropes', C: '#forge:ingots/iron'})
 	
 	event.shaped('2x minecraft:ender_chest', ['BAB', 'ACA', 'BAB'], {A: '#forge:gems/obsidian', B: '#raspberry_flavoured:exolite', C: 'ender_eye'}).id('minecraft:ender_chest')
@@ -1520,6 +1520,10 @@ ServerEvents.recipes(event => {
 	result: {item: 'oreganized:music_disc_structure'}}).id('oreganized:music_disc_structure')
 	
 // Smithing
+	allColours.forEach(colour => {
+		event.smithing('minecraft:'+colour+'_shulker_box', 'suppsquared:sack_'+colour, 'upgrade_aquatic:scute_block')
+    })
+	event.smithing('shulker_box', 'supplementaries:sack', 'upgrade_aquatic:scute_block').id('minecraft:shulker_box')
 	event.smithing('minecraft:recovery_compass', 'minecraft:compass', 'quark:soul_bead').id('minecraft:recovery_compass')
 	event.smithing('kubejs:rose_gold_horse_armor', 'minecraft:iron_horse_armor', 'additionaladditions:rose_gold_alloy')
 	event.smithing('kubejs:steel_horse_armor', 'minecraft:iron_horse_armor', 'alloyed:steel_ingot')
